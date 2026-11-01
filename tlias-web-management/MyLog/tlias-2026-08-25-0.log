@@ -1,0 +1,60 @@
+2026-08-25 20:19:31.211 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 215288 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-08-25 20:19:31.213 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-08-25 20:19:32.976 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-08-25 20:19:32.987 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-08-25 20:19:32.989 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-08-25 20:19:32.990 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-08-25 20:19:33.050 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-08-25 20:19:33.051 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1808 ms
+2026-08-25 20:19:33.743 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-08-25 20:19:33.757 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-08-25 20:19:33.763 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.854 seconds (process running for 3.778)
+2026-08-25 20:19:37.026 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-25 20:19:37.026 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-08-25 20:19:37.027 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-08-25 20:19:37.039 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-08-25 20:19:37.921 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-08-25 20:19:39.705 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-08-25 20:19:54.352 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-08-25 20:19:58.011 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-08-25 20:19:58.700 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-08-25 20:20:01.572 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-08-25 20:21:36.097 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25 20:21:36.103 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-08-25 20:22:37.208 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 217128 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-08-25 20:22:37.209 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-08-25 20:22:37.959 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-08-25 20:22:37.966 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-08-25 20:22:37.967 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-08-25 20:22:37.967 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-08-25 20:22:38.000 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-08-25 20:22:38.000 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 759 ms
+2026-08-25 20:22:38.520 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-08-25 20:22:38.533 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-08-25 20:22:38.537 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.583 seconds (process running for 2.082)
+2026-08-25 20:22:50.232 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-25 20:22:50.232 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-08-25 20:22:50.233 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-08-25 20:22:50.258 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-25 20:22:50.270 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-08-25 20:22:50.531 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d51a914
+2026-08-25 20:22:50.533 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-08-25 20:22:51.188 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-25 20:22:55.209 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-25 20:22:56.163 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-25 20:22:58.886 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-25 20:23:03.223 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-25 20:23:09.280 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-08-25 20:23:11.020 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-修改部门:Dept(id=7, name=财务部2, createTime=2026-03-25T09:06:14, updateTime=2026-05-21T15:27:47)
+2026-08-25 20:23:11.030 [http-nio-8080-exec-8] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-08-25T20:23:11.029819600, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=update, methodParams=[Dept(id=7, name=财务部2, createTime=2026-03-25T09:06:14, updateTime=2026-08-25T20:23:11.020198900)], returnValue=Result(code=1, msg=success, data=null), costTime=9, operateEmpName=null)
+2026-08-25 20:23:11.050 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-25 20:23:12.056 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-08-25 20:23:16.031 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-修改部门:Dept(id=7, name=财务部, createTime=2026-03-25T09:06:14, updateTime=2026-08-25T20:23:11)
+2026-08-25 20:23:16.036 [http-nio-8080-exec-1] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-08-25T20:23:16.036631200, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=update, methodParams=[Dept(id=7, name=财务部, createTime=2026-03-25T09:06:14, updateTime=2026-08-25T20:23:16.032628400)], returnValue=Result(code=1, msg=success, data=null), costTime=5, operateEmpName=null)
+2026-08-25 20:23:16.045 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-25 20:23:25.062 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-25 20:23:27.510 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-25 20:23:36.357 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25 20:23:36.361 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-08-25 20:23:36.363 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-08-25 20:23:36.367 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

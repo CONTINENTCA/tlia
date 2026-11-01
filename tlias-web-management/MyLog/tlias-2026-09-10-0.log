@@ -1,0 +1,604 @@
+2026-09-10 13:13:53.589 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 63944 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 13:13:53.590 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 13:13:55.197 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-10 13:13:55.207 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-10 13:13:55.208 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-10 13:13:55.208 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-10 13:13:55.245 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-10 13:13:55.246 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1621 ms
+2026-09-10 13:13:55.884 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-10 13:13:55.896 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-10 13:13:55.901 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.696 seconds (process running for 3.527)
+2026-09-10 13:14:28.394 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-10 13:14:28.394 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-10 13:14:28.395 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-09-10 13:14:28.470 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=, password=, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 13:14:28.493 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-10 13:14:28.784 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@791e6b58
+2026-09-10 13:14:28.785 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-10 13:14:31.515 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-10 13:14:31.521 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-10 13:14:31.525 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-10 13:14:31.530 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-10 13:19:55.924 [main] INFO  com.zly.tliaswebmanagement.LogTest-计算结果为:101
+2026-09-10 13:19:56.037 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.zly.tliaswebmanagement.TliasWebManagementApplicationTests]: TliasWebManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-10 13:19:56.188 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.zly.tliaswebmanagement.TliasWebManagementApplication for test class com.zly.tliaswebmanagement.TliasWebManagementApplicationTests
+2026-09-10 13:19:56.492 [main] INFO  c.z.t.TliasWebManagementApplicationTests-Starting TliasWebManagementApplicationTests using Java 24.0.1 with PID 94980 (started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 13:19:56.494 [main] INFO  c.z.t.TliasWebManagementApplicationTests-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 13:19:58.819 [main] INFO  c.z.t.TliasWebManagementApplicationTests-Started TliasWebManagementApplicationTests in 2.52 seconds (process running for 4.053)
+2026-09-10 13:22:05.000 [main] INFO  com.zly.tliaswebmanagement.LogTest-计算结果为:101
+2026-09-10 13:22:05.092 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.zly.tliaswebmanagement.TliasWebManagementApplicationTests]: TliasWebManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-10 13:22:05.195 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.zly.tliaswebmanagement.TliasWebManagementApplication for test class com.zly.tliaswebmanagement.TliasWebManagementApplicationTests
+2026-09-10 13:22:05.514 [main] INFO  c.z.t.TliasWebManagementApplicationTests-Starting TliasWebManagementApplicationTests using Java 24.0.1 with PID 92476 (started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 13:22:05.514 [main] INFO  c.z.t.TliasWebManagementApplicationTests-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 13:22:07.513 [main] INFO  c.z.t.TliasWebManagementApplicationTests-Started TliasWebManagementApplicationTests in 2.217 seconds (process running for 3.531)
+2026-09-10 16:06:45.175 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 57284 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 16:06:45.175 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 16:06:46.829 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-10 16:06:46.839 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-10 16:06:46.844 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-10 16:06:46.844 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-10 16:06:46.887 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-10 16:06:46.887 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1677 ms
+2026-09-10 16:06:47.778 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-10 16:06:47.790 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-10 16:06:47.799 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.943 seconds (process running for 7.663)
+2026-09-10 16:12:12.628 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-10 16:12:12.628 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-10 16:12:12.637 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 9 ms
+2026-09-10 16:12:12.712 [http-nio-8080-exec-2] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=12345, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:12:12.734 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-10 16:12:13.063 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@439a0053
+2026-09-10 16:12:13.064 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-10 16:12:16.627 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:12:16.634 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:12:19.376 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:12:19.381 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:12:19.663 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:12:19.676 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:12:19.676 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:12:19.676 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:20:23.879 [http-nio-8080-exec-9] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:20:23.885 [http-nio-8080-exec-9] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:20:24.969 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:20:24.969 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:20:30.162 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:20:30.166 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:20:31.206 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:20:33.781 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=, password=, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:20:35.280 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=, password=, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:20:53.383 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:20:53.385 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:20:55.450 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:21:46.946 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:21:46.952 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:21:49.210 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:21:49.210 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:21:49.531 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:21:49.531 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:21:49.531 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:21:49.532 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:25:41.555 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:25:41.560 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:25:42.988 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:25:42.988 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:25:43.372 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:25:43.372 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:25:43.372 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:25:43.372 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:33:10.370 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:33:10.399 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:33:27.354 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:33:27.358 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:33:34.196 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:33:43.469 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-10 16:33:43.473 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-10 16:33:43.475 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-10 16:33:43.479 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-10 16:33:54.668 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 56108 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 16:33:54.670 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 16:33:55.362 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-10 16:33:55.369 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-10 16:33:55.369 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-10 16:33:55.370 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-10 16:33:55.405 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-10 16:33:55.405 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 707 ms
+2026-09-10 16:33:55.853 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-10 16:33:55.865 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-10 16:33:55.868 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.457 seconds (process running for 1.955)
+2026-09-10 16:34:08.568 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-10 16:34:08.568 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-10 16:34:08.568 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-09-10 16:34:08.579 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:34:08.600 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-10 16:34:08.922 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37aa7523
+2026-09-10 16:34:08.922 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-10 16:34:09.123 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:34:09.133 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:34:10.693 [http-nio-8080-exec-2] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工职位人数
+2026-09-10 16:34:10.693 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工性别
+2026-09-10 16:34:11.576 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.controller.ReportController-学员学位统计
+2026-09-10 16:34:11.576 [http-nio-8080-exec-6] INFO  c.z.tliaswebmanagement.controller.ReportController-班级人数统计
+2026-09-10 16:34:21.439 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.ReportController-班级人数统计
+2026-09-10 16:34:21.439 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.ReportController-学员学位统计
+2026-09-10 16:34:22.023 [http-nio-8080-exec-2] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工职位人数
+2026-09-10 16:34:22.034 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工性别
+2026-09-10 16:35:16.138 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:35:16.139 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:35:16.668 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:35:17.040 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:35:17.040 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:35:20.573 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-09-10 16:35:20.575 [http-nio-8080-exec-6] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "list"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:301)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.NumberFormatException: For input string: "list"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.valueOf(Integer.java:989)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:439)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:412)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:161)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:80)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:867)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:293)
+	... 48 common frames omitted
+2026-09-10 16:35:21.765 [http-nio-8080-exec-9] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有班级
+2026-09-10 16:35:21.767 [http-nio-8080-exec-8] INFO  c.z.t.controller.StudentController-分页查询学生
+2026-09-10 16:35:22.530 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.ReportController-学员学位统计
+2026-09-10 16:35:22.530 [http-nio-8080-exec-10] INFO  c.z.tliaswebmanagement.controller.ReportController-班级人数统计
+2026-09-10 16:35:23.827 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工职位人数
+2026-09-10 16:35:23.827 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工性别
+2026-09-10 16:37:31.342 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有班级
+2026-09-10 16:37:31.343 [http-nio-8080-exec-6] INFO  c.z.t.controller.StudentController-分页查询学生
+2026-09-10 16:37:34.224 [http-nio-8080-exec-9] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-09-10 16:37:34.224 [http-nio-8080-exec-8] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "list"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:301)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.NumberFormatException: For input string: "list"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.valueOf(Integer.java:989)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:439)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:412)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:161)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:80)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:867)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.convertIfNecessary(AbstractNamedValueMethodArgumentResolver.java:293)
+	... 48 common frames omitted
+2026-09-10 16:37:36.147 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:37:36.515 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:37:36.515 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:37:48.134 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-10 16:41:18.980 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:41:19.315 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:41:19.338 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:41:20.054 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工职位人数
+2026-09-10 16:41:20.071 [http-nio-8080-exec-9] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工性别
+2026-09-10 16:41:20.492 [http-nio-8080-exec-10] INFO  c.z.tliaswebmanagement.controller.ReportController-班级人数统计
+2026-09-10 16:41:20.506 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.controller.ReportController-学员学位统计
+2026-09-10 16:41:34.911 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-10 16:41:34.914 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-10 16:41:34.917 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-10 16:41:34.921 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-10 16:42:00.723 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 83576 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 16:42:00.724 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 16:42:01.427 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-10 16:42:01.468 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 713 ms
+2026-09-10 16:42:01.940 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-10 16:42:01.945 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.498 seconds (process running for 2.163)
+2026-09-10 16:42:01.946 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-10 16:42:01.951 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-10 16:42:09.717 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 87320 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 16:42:09.718 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 16:42:10.430 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-10 16:42:10.437 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-10 16:42:10.438 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-10 16:42:10.438 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-10 16:42:10.469 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-10 16:42:10.469 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 720 ms
+2026-09-10 16:42:10.905 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-10 16:42:10.915 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-10 16:42:10.919 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.48 seconds (process running for 2.023)
+2026-09-10 16:42:36.082 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-10 16:42:36.082 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-10 16:42:36.082 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-09-10 16:42:36.093 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:42:36.093 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:42:41.056 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:42:41.074 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-10 16:42:41.246 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@566ca57c
+2026-09-10 16:42:41.247 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-10 16:42:41.278 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:42:42.403 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:42:42.403 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:43:02.355 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-10 16:43:02.358 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-10 16:43:02.362 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-10 16:43:02.366 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-10 16:45:33.810 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 98624 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 16:45:33.812 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 16:45:34.495 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-10 16:45:34.502 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-10 16:45:34.503 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-10 16:45:34.503 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-10 16:45:34.535 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-10 16:45:34.535 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 691 ms
+2026-09-10 16:45:35.014 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-10 16:45:35.026 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-10 16:45:35.031 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.51 seconds (process running for 2.004)
+2026-09-10 16:45:50.266 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-10 16:45:50.266 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-10 16:45:50.267 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-09-10 16:45:50.368 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:45:50.400 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-10 16:45:50.771 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ef4a8fa
+2026-09-10 16:45:50.772 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-10 16:45:50.839 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:45:54.606 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:45:54.615 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:45:55.060 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:45:55.060 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:45:55.060 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:45:55.065 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:46:24.612 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:46:24.612 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:46:25.767 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:46:25.768 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:50:23.316 [http-nio-8080-exec-8] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('\' (code 92)): was expecting double-quote to start field name
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:408)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:356)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:204)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:176)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:150)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('\' (code 92)): was expecting double-quote to start field name
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2672)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:742)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2103)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1753)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:757)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:173)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2130)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1500)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:397)
+	... 51 common frames omitted
+2026-09-10 16:50:34.854 [http-nio-8080-exec-9] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:50:34.860 [http-nio-8080-exec-9] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:50:44.490 [http-nio-8080-exec-10] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:50:44.492 [http-nio-8080-exec-10] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:50:46.556 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:50:46.557 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-09-10 16:50:48.641 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 16:52:09.604 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:52:09.609 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:52:11.710 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:52:11.710 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-09-10 16:57:43.928 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-10 16:57:43.933 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-10 16:57:43.935 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-10 16:57:43.939 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-10 16:57:56.746 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 94324 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 16:57:56.747 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 16:57:57.511 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-10 16:57:57.520 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-10 16:57:57.521 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-10 16:57:57.521 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-10 16:57:57.554 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-10 16:57:57.554 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 774 ms
+2026-09-10 16:57:57.998 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-10 16:57:58.009 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-10 16:57:58.013 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.54 seconds (process running for 2.112)
+2026-09-10 16:58:04.962 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-10 16:58:04.962 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-10 16:58:04.962 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-09-10 16:58:05.012 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 16:58:05.027 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-10 16:58:05.186 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24774045
+2026-09-10 16:58:05.187 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-10 16:58:05.226 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 16:58:06.307 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:06.308 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:58:06.742 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:06.742 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:06.742 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:58:06.751 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:58:07.599 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:07.599 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工职位人数
+2026-09-10 16:58:07.599 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:07.600 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工性别
+2026-09-10 16:58:07.973 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:07.973 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:07.973 [http-nio-8080-exec-6] INFO  c.z.tliaswebmanagement.controller.ReportController-班级人数统计
+2026-09-10 16:58:07.973 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.controller.ReportController-学员学位统计
+2026-09-10 16:58:08.284 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:09.242 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:09.242 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:09.242 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:58:09.242 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:58:33.518 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:33.525 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-新增员工:Emp(id=null, username=asd, password=null, name=aaa, gender=2, phone=13682100999, job=1, salary=123, image=, entryDate=null, deptId=7, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2026-09-15, end=2026-10-27, company=123, job=233)])
+2026-09-10 16:58:33.526 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-10 16:58:33.527 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@148134889 wrapping com.mysql.cj.jdbc.ConnectionImpl@24774045] for JDBC transaction
+2026-09-10 16:58:33.529 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@148134889 wrapping com.mysql.cj.jdbc.ConnectionImpl@24774045] to manual commit
+2026-09-10 16:58:33.540 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-10 16:58:33.541 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1745835220 wrapping com.mysql.cj.jdbc.ConnectionImpl@72b3b078] for JDBC transaction
+2026-09-10 16:58:33.541 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1745835220 wrapping com.mysql.cj.jdbc.ConnectionImpl@72b3b078] to manual commit
+2026-09-10 16:58:33.544 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-10 16:58:33.545 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1745835220 wrapping com.mysql.cj.jdbc.ConnectionImpl@72b3b078]
+2026-09-10 16:58:33.549 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1745835220 wrapping com.mysql.cj.jdbc.ConnectionImpl@72b3b078] after transaction
+2026-09-10 16:58:33.549 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-10 16:58:33.549 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-10 16:58:33.550 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@148134889 wrapping com.mysql.cj.jdbc.ConnectionImpl@24774045]
+2026-09-10 16:58:33.552 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@148134889 wrapping com.mysql.cj.jdbc.ConnectionImpl@24774045] after transaction
+2026-09-10 16:58:33.553 [http-nio-8080-exec-2] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=2, operateTime=2026-09-10T16:58:33.552069400, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=save, methodParams=[Emp(id=96, username=asd, password=123456, name=aaa, gender=2, phone=13682100999, job=1, salary=123, image=, entryDate=null, deptId=7, createTime=2026-09-10T16:58:33.529600, updateTime=2026-09-10T16:58:33.529600, deptName=null, exprList=[EmpExpr(id=null, empId=96, begin=2026-09-15, end=2026-10-27, company=123, job=233)])], returnValue=Result(code=1, msg=success, data=null), costTime=27, operateEmpName=null)
+2026-09-10 16:58:33.580 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:33.581 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:58:35.441 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:37.760 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:37.760 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:37.761 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工职位人数
+2026-09-10 16:58:37.761 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工性别
+2026-09-10 16:58:38.225 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:38.225 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:38.225 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.controller.ReportController-班级人数统计
+2026-09-10 16:58:38.225 [http-nio-8080-exec-6] INFO  c.z.tliaswebmanagement.controller.ReportController-学员学位统计
+2026-09-10 16:58:38.722 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:41.031 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:41.031 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:41.031 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 16:58:41.031 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:58:44.134 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:44.135 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-删除员工:[96]
+2026-09-10 16:58:44.135 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.remove]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-10 16:58:44.136 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@902556988 wrapping com.mysql.cj.jdbc.ConnectionImpl@24774045] for JDBC transaction
+2026-09-10 16:58:44.136 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@902556988 wrapping com.mysql.cj.jdbc.ConnectionImpl@24774045] to manual commit
+2026-09-10 16:58:44.138 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-10 16:58:44.138 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@524407609 wrapping com.mysql.cj.jdbc.ConnectionImpl@72b3b078] for JDBC transaction
+2026-09-10 16:58:44.138 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@524407609 wrapping com.mysql.cj.jdbc.ConnectionImpl@72b3b078] to manual commit
+2026-09-10 16:58:44.139 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-10 16:58:44.139 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@524407609 wrapping com.mysql.cj.jdbc.ConnectionImpl@72b3b078]
+2026-09-10 16:58:44.143 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@524407609 wrapping com.mysql.cj.jdbc.ConnectionImpl@72b3b078] after transaction
+2026-09-10 16:58:44.143 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-10 16:58:44.143 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-10 16:58:44.143 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@902556988 wrapping com.mysql.cj.jdbc.ConnectionImpl@24774045]
+2026-09-10 16:58:44.144 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@902556988 wrapping com.mysql.cj.jdbc.ConnectionImpl@24774045] after transaction
+2026-09-10 16:58:44.144 [http-nio-8080-exec-2] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=2, operateTime=2026-09-10T16:58:44.144573300, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=remove, methodParams=[[96]], returnValue=Result(code=1, msg=success, data=null), costTime=9, operateEmpName=null)
+2026-09-10 16:58:44.163 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 16:58:44.164 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 16:58:48.879 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-10 16:58:48.884 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-10 16:58:48.886 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-10 16:58:48.888 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-10 17:00:10.135 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 75820 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 17:00:10.136 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 17:00:10.853 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-10 17:00:10.862 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-10 17:00:10.863 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-10 17:00:10.863 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-10 17:00:10.897 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-10 17:00:10.897 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 727 ms
+2026-09-10 17:00:11.353 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-10 17:00:11.363 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-10 17:00:11.368 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.523 seconds (process running for 2.041)
+2026-09-10 17:00:15.775 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-10 17:00:15.775 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-10 17:00:15.775 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-09-10 17:00:15.828 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 17:00:15.841 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-10 17:00:16.008 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68f800c9
+2026-09-10 17:00:16.008 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-10 17:00:16.050 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 17:00:17.207 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 17:00:17.207 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 17:02:06.723 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-10 17:02:06.727 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-10 17:02:06.729 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-10 17:02:06.733 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-10 17:03:03.885 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 97420 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 17:03:03.886 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 17:03:04.570 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-10 17:03:04.576 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-10 17:03:04.577 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-10 17:03:04.577 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-10 17:03:04.608 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-10 17:03:04.609 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 689 ms
+2026-09-10 17:03:05.080 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-10 17:03:05.089 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-10 17:03:05.095 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.475 seconds (process running for 2.02)
+2026-09-10 17:08:28.615 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-10 17:08:28.615 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-10 17:08:28.616 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-09-10 17:08:28.624 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 17:08:28.624 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 17:08:35.227 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 17:08:35.250 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-10 17:08:35.502 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@566ca57c
+2026-09-10 17:08:35.504 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-10 17:08:35.561 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 17:09:23.631 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 17:09:23.650 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-10 17:09:57.620 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-10 17:09:57.624 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-10 17:09:57.626 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-10 17:09:57.629 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-10 17:47:05.532 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 100912 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 17:47:05.534 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 17:47:06.940 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-10 17:47:06.950 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-10 17:47:06.952 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-10 17:47:06.952 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-10 17:47:07.000 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-10 17:47:07.000 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1416 ms
+2026-09-10 17:47:07.883 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-10 17:47:07.893 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-10 17:47:07.898 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.73 seconds (process running for 3.589)
+2026-09-10 17:47:21.858 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-10 17:47:21.858 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-10 17:47:21.859 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-09-10 17:47:21.919 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-10 17:47:21.934 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-10 17:47:22.168 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10c6f6b9
+2026-09-10 17:47:22.171 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-10 17:47:22.208 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-10 17:47:23.219 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 17:47:23.220 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 17:47:23.865 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 17:47:23.865 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-10 17:47:23.865 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-10 17:47:23.872 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-10 17:47:26.625 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-10 17:47:26.631 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-10 17:47:26.634 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-10 17:47:26.639 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

@@ -1,0 +1,698 @@
+2026-08-26 13:36:39.241 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 7392 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-08-26 13:36:39.243 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-08-26 13:36:40.346 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-08-26 13:36:40.354 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-08-26 13:36:40.354 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-08-26 13:36:40.354 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-08-26 13:36:40.392 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-08-26 13:36:40.392 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1118 ms
+2026-08-26 13:36:40.937 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-08-26 13:36:40.945 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-08-26 13:36:40.950 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.069 seconds (process running for 3.067)
+2026-08-26 13:36:46.726 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-26 13:36:46.726 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-08-26 13:36:46.726 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-08-26 13:36:46.744 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-08-26 13:36:52.991 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-26 13:36:52.994 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-08-26 13:37:19.369 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 12784 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-08-26 13:37:19.374 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-08-26 13:37:20.040 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-08-26 13:37:20.044 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-08-26 13:37:20.044 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-08-26 13:37:20.044 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-08-26 13:37:20.074 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-08-26 13:37:20.074 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 675 ms
+2026-08-26 13:37:20.524 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-08-26 13:37:20.532 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-08-26 13:37:20.539 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.432 seconds (process running for 1.947)
+2026-08-26 13:37:23.908 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-26 13:37:23.908 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-08-26 13:37:23.908 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-08-26 13:37:24.408 [http-nio-8080-exec-2] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-26 13:37:40.142 [http-nio-8080-exec-4] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-26 13:37:54.238 [http-nio-8080-exec-10] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-26 13:38:16.169 [http-nio-8080-exec-8] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-26 13:39:19.816 [http-nio-8080-exec-1] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-26 13:39:23.946 [http-nio-8080-exec-2] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .well-known/appspecific/com.chrome.devtools.json.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-26 13:39:36.087 [http-nio-8080-exec-4] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .well-known/appspecific/com.chrome.devtools.json.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-26 13:39:36.568 [http-nio-8080-exec-5] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-26 13:41:20.002 [http-nio-8080-exec-9] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-26 13:42:25.452 [http-nio-8080-exec-3] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-26 13:42:31.788 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-26 13:42:31.792 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-08-26 14:08:23.184 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 27744 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-08-26 14:08:23.186 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-08-26 14:08:23.945 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-08-26 14:08:23.952 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-08-26 14:08:23.953 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-08-26 14:08:23.953 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-08-26 14:08:23.985 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-08-26 14:08:23.985 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 766 ms
+2026-08-26 14:08:24.526 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-08-26 14:08:24.540 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-08-26 14:08:24.545 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.639 seconds (process running for 2.437)
+2026-08-26 14:08:38.641 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-26 14:08:38.642 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-08-26 14:08:38.642 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-08-26 14:08:38.696 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, ExprList=null)
+2026-08-26 14:08:38.714 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-08-26 14:08:38.966 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b551339
+2026-08-26 14:08:38.967 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-08-26 14:08:38.998 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, ExprList=[])
+2026-08-26 14:08:42.251 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:42.251 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:42.256 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=100, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:08:42.257 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-08-26 14:08:42.995 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:42.995 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有班级
+2026-08-26 14:08:43.008 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:43.009 [http-nio-8080-exec-5] INFO  c.z.t.controller.StudentController-分页查询学生
+2026-08-26 14:08:43.964 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:43.964 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-26 14:08:44.463 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:44.463 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-26 14:08:44.471 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:44.472 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:08:53.335 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:53.336 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=2, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:08:53.790 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:53.791 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=3, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:08:54.271 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:54.271 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=4, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:08:55.932 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:55.932 [http-nio-8080-exec-2] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工职位人数
+2026-08-26 14:08:55.945 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:55.948 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工性别
+2026-08-26 14:08:56.578 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:56.579 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.ReportController-学员学位统计
+2026-08-26 14:08:56.586 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:56.590 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.ReportController-班级人数统计
+2026-08-26 14:08:57.013 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:58.725 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:58.725 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.controller.ReportController-学员学位统计
+2026-08-26 14:08:58.732 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:08:58.732 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.controller.ReportController-班级人数统计
+2026-08-26 14:09:02.537 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:09:02.537 [http-nio-8080-exec-9] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工职位人数
+2026-08-26 14:09:02.548 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:09:02.548 [http-nio-8080-exec-10] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工性别
+2026-08-26 14:09:03.727 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:09:03.727 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-26 14:09:03.740 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:09:03.740 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:09:04.212 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:09:04.212 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-26 14:09:06.230 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:09:06.230 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-26 14:09:06.239 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:09:06.243 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:09:08.478 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:09:08.481 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:87
+2026-08-26 14:09:57.820 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:09:57.838 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-新增员工:Emp(id=null, username=kkb, password=1234567, name=看看比, gender=1, phone=13682100819, job=1, salary=130, image=, entryDate=2026-08-13, deptId=7, createTime=null, updateTime=null, deptName=null, ExprList=[])
+2026-08-26 14:09:57.841 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-08-26 14:09:57.845 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@747154464 wrapping com.mysql.cj.jdbc.ConnectionImpl@b551339] for JDBC transaction
+2026-08-26 14:09:57.849 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@747154464 wrapping com.mysql.cj.jdbc.ConnectionImpl@b551339] to manual commit
+2026-08-26 14:09:57.870 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-08-26 14:09:57.874 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2103986580 wrapping com.mysql.cj.jdbc.ConnectionImpl@168f28d8] for JDBC transaction
+2026-08-26 14:09:57.874 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2103986580 wrapping com.mysql.cj.jdbc.ConnectionImpl@168f28d8] to manual commit
+2026-08-26 14:09:57.887 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-08-26 14:09:57.887 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2103986580 wrapping com.mysql.cj.jdbc.ConnectionImpl@168f28d8]
+2026-08-26 14:09:57.890 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2103986580 wrapping com.mysql.cj.jdbc.ConnectionImpl@168f28d8] after transaction
+2026-08-26 14:09:57.891 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-08-26 14:09:57.891 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-08-26 14:09:57.891 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@747154464 wrapping com.mysql.cj.jdbc.ConnectionImpl@b551339]
+2026-08-26 14:09:57.891 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@747154464 wrapping com.mysql.cj.jdbc.ConnectionImpl@b551339] after transaction
+2026-08-26 14:09:57.894 [http-nio-8080-exec-7] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=2, operateTime=2026-08-26T14:09:57.891377500, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=save, methodParams=[Emp(id=89, username=kkb, password=1234567, name=看看比, gender=1, phone=13682100819, job=1, salary=130, image=, entryDate=2026-08-13, deptId=7, createTime=2026-08-26T14:09:57.853306600, updateTime=2026-08-26T14:09:57.853306600, deptName=null, ExprList=[])], returnValue=Result(code=1, msg=success, data=null), costTime=53, operateEmpName=null)
+2026-08-26 14:09:57.905 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:09:57.905 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:10:16.920 [http-nio-8080-exec-9] INFO  org.apache.coyote.http11.Http11Processor-Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/emps?ids[]=89 ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:477)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-26 14:10:51.069 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-26 14:10:51.073 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-08-26 14:10:51.075 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-08-26 14:10:51.079 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-08-26 14:12:55.676 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 4240 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-08-26 14:12:55.678 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-08-26 14:12:56.676 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-08-26 14:12:56.689 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-08-26 14:12:56.691 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-08-26 14:12:56.691 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-08-26 14:12:56.751 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-08-26 14:12:56.752 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1039 ms
+2026-08-26 14:12:57.541 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-08-26 14:12:57.558 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-08-26 14:12:57.565 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.185 seconds (process running for 2.737)
+2026-08-26 14:13:05.380 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-26 14:13:05.381 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-08-26 14:13:05.381 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-08-26 14:13:05.501 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:13:05.510 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-26 14:13:05.526 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-08-26 14:13:05.833 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1297a3b4
+2026-08-26 14:13:05.835 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-08-26 14:13:06.002 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:13:06.020 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:13:21.029 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, ExprList=null)
+2026-08-26 14:13:21.037 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, ExprList=[])
+2026-08-26 14:13:23.139 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:13:23.140 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工职位人数
+2026-08-26 14:13:23.151 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:13:23.151 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.ReportController-统计员工性别
+2026-08-26 14:13:23.599 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:13:23.600 [http-nio-8080-exec-6] INFO  c.z.tliaswebmanagement.controller.ReportController-学员学位统计
+2026-08-26 14:13:23.608 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:13:23.608 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.controller.ReportController-班级人数统计
+2026-08-26 14:13:24.945 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:13:24.946 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-26 14:13:25.328 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:13:25.328 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-26 14:13:25.336 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:13:25.337 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:13:27.555 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:13:27.559 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-删除员工:[89]
+2026-08-26 14:13:27.562 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.remove]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-08-26 14:13:27.563 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1127496548 wrapping com.mysql.cj.jdbc.ConnectionImpl@1297a3b4] for JDBC transaction
+2026-08-26 14:13:27.565 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1127496548 wrapping com.mysql.cj.jdbc.ConnectionImpl@1297a3b4] to manual commit
+2026-08-26 14:13:27.574 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-08-26 14:13:27.575 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@516806100 wrapping com.mysql.cj.jdbc.ConnectionImpl@3dcdd5c8] for JDBC transaction
+2026-08-26 14:13:27.575 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@516806100 wrapping com.mysql.cj.jdbc.ConnectionImpl@3dcdd5c8] to manual commit
+2026-08-26 14:13:27.580 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-08-26 14:13:27.580 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@516806100 wrapping com.mysql.cj.jdbc.ConnectionImpl@3dcdd5c8]
+2026-08-26 14:13:27.584 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@516806100 wrapping com.mysql.cj.jdbc.ConnectionImpl@3dcdd5c8] after transaction
+2026-08-26 14:13:27.584 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-08-26 14:13:27.585 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-08-26 14:13:27.585 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1127496548 wrapping com.mysql.cj.jdbc.ConnectionImpl@1297a3b4]
+2026-08-26 14:13:27.587 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1127496548 wrapping com.mysql.cj.jdbc.ConnectionImpl@1297a3b4] after transaction
+2026-08-26 14:13:27.589 [http-nio-8080-exec-1] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=2, operateTime=2026-08-26T14:13:27.587831800, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=remove, methodParams=[[89]], returnValue=Result(code=1, msg=success, data=null), costTime=28, operateEmpName=null)
+2026-08-26 14:13:27.602 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:13:27.603 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:14:17.386 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-26 14:14:17.391 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-08-26 14:14:17.393 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-08-26 14:14:17.396 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-08-26 14:14:38.342 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 9364 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-08-26 14:14:38.342 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-08-26 14:14:39.204 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-08-26 14:14:39.211 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-08-26 14:14:39.212 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-08-26 14:14:39.212 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-08-26 14:14:39.248 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-08-26 14:14:39.248 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 868 ms
+2026-08-26 14:14:39.968 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-08-26 14:14:39.987 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-08-26 14:14:39.993 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.972 seconds (process running for 2.621)
+2026-08-26 14:14:40.153 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-26 14:14:40.153 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-08-26 14:14:40.155 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-08-26 14:14:40.261 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:14:40.269 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-26 14:14:40.284 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-08-26 14:14:40.632 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36484cd4
+2026-08-26 14:14:40.634 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-08-26 14:14:40.813 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:14:40.814 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:14:40.814 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-08-26 14:14:40.849 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:14:41.004 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:14:41.004 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:14:43.219 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:14:43.219 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:14:43.220 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=100, name=null, gender=3, begin=null, end=null)
+2026-08-26 14:14:43.229 [http-nio-8080-exec-6] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-08-26 14:14:48.130 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:14:48.133 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-08-26 14:14:48.883 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:14:48.884 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-08-26 14:14:56.439 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:14:56.470 [http-nio-8080-exec-9] INFO  c.z.tliaswebmanagement.controller.ClassController-增加班级
+2026-08-26 14:14:56.483 [http-nio-8080-exec-9] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=2, operateTime=2026-08-26T14:14:56.477545200, className=com.zly.tliaswebmanagement.controller.ClassController, methodName=addClass, methodParams=[MyClass(id=null, name=123, room=124, beginDate=2026-07-27, endDate=2026-08-20, masterId=87, createTime=null, updateTime=null, masterName=null, status=null, subject=2)], returnValue=Result(code=1, msg=success, data=null), costTime=7, operateEmpName=null)
+2026-08-26 14:14:56.498 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:14:56.502 [http-nio-8080-exec-10] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-08-26 14:14:59.344 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:14:59.345 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-08-26 14:15:01.360 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:15:01.365 [http-nio-8080-exec-2] INFO  c.z.tliaswebmanagement.controller.ClassController-根据id删除班级
+2026-08-26 14:15:01.373 [http-nio-8080-exec-2] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=2, operateTime=2026-08-26T14:15:01.373365900, className=com.zly.tliaswebmanagement.controller.ClassController, methodName=deleteClass, methodParams=[26], returnValue=Result(code=1, msg=success, data=null), costTime=8, operateEmpName=null)
+2026-08-26 14:15:01.389 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:15:01.391 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-08-26 14:15:13.529 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:15:13.530 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-08-26 14:15:21.978 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:15:21.982 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.ClassController-增加班级
+2026-08-26 14:15:21.988 [http-nio-8080-exec-5] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=2, operateTime=2026-08-26T14:15:21.988342400, className=com.zly.tliaswebmanagement.controller.ClassController, methodName=addClass, methodParams=[MyClass(id=null, name=123, room=412, beginDate=2026-07-28, endDate=2026-08-20, masterId=2, createTime=null, updateTime=null, masterName=null, status=null, subject=2)], returnValue=Result(code=1, msg=success, data=null), costTime=6, operateEmpName=null)
+2026-08-26 14:15:22.000 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:15:22.000 [http-nio-8080-exec-6] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-08-26 14:15:24.161 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:15:24.162 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-08-26 14:15:49.774 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:15:49.775 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.controller.ClassController-根据id删除班级
+2026-08-26 14:15:49.779 [http-nio-8080-exec-8] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=2, operateTime=2026-08-26T14:15:49.779600200, className=com.zly.tliaswebmanagement.controller.ClassController, methodName=deleteClass, methodParams=[27], returnValue=Result(code=1, msg=success, data=null), costTime=4, operateEmpName=null)
+2026-08-26 14:15:49.795 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-08-26 14:15:49.795 [http-nio-8080-exec-9] INFO  c.z.tliaswebmanagement.controller.ClassController-查询所有的班级
+2026-08-26 14:16:00.358 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-26 14:16:00.362 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-08-26 14:16:00.364 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-08-26 14:16:00.367 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

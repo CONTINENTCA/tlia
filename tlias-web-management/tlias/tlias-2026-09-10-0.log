@@ -1,0 +1,6 @@
+2026-09-10 17:45:01.039 [main] INFO  com.zly.tliaswebmanagement.LogTest-计算结果为:101
+2026-09-10 17:45:01.118 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.zly.tliaswebmanagement.TliasWebManagementApplicationTests]: TliasWebManagementApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-10 17:45:01.244 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.zly.tliaswebmanagement.TliasWebManagementApplication for test class com.zly.tliaswebmanagement.TliasWebManagementApplicationTests
+2026-09-10 17:45:01.608 [main] INFO  c.z.t.TliasWebManagementApplicationTests-Starting TliasWebManagementApplicationTests using Java 24.0.1 with PID 92972 (started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-10 17:45:01.609 [main] INFO  c.z.t.TliasWebManagementApplicationTests-No active profile set, falling back to 1 default profile: "default"
+2026-09-10 17:45:03.986 [main] INFO  c.z.t.TliasWebManagementApplicationTests-Started TliasWebManagementApplicationTests in 2.631 seconds (process running for 4.24)

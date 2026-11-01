@@ -1,0 +1,1051 @@
+2026-09-02 17:02:49.127 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 6312 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-02 17:02:49.128 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-02 17:02:50.624 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-02 17:02:50.635 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-02 17:02:50.636 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-02 17:02:50.637 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-02 17:02:50.686 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-02 17:02:50.687 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1526 ms
+2026-09-02 17:02:51.318 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-02 17:02:51.330 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-02 17:02:51.335 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.565 seconds (process running for 3.566)
+2026-09-02 17:02:54.124 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02 17:02:54.124 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-02 17:02:54.125 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-09-02 17:02:54.149 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:02:54.163 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:02:54.168 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-02 17:02:54.555 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ab146f
+2026-09-02 17:02:54.556 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-02 17:02:58.331 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:02:59.223 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:02:59.224 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:11:27.900 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:13:10.222 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:13:10.222 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:13:28.888 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:13:28.890 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:13:36.429 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:13:36.430 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:14:31.954 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:14:31.954 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:15:07.469 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:15:07.469 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:16:32.913 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:16:32.914 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:17:47.575 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:17:47.577 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:18:17.853 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:18:17.853 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:20:20.427 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-新增员工:Emp(id=null, username=liyuanyuan, password=null, name=李媛媛, gender=2, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2026-09-17, end=2026-10-13, company=雅思机构, job=讲师)])
+2026-09-02 17:20:20.434 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 17:20:20.437 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@507107882 wrapping com.mysql.cj.jdbc.ConnectionImpl@3a81900f] for JDBC transaction
+2026-09-02 17:20:20.439 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@507107882 wrapping com.mysql.cj.jdbc.ConnectionImpl@3a81900f] to manual commit
+2026-09-02 17:20:20.455 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 17:20:20.456 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@585735577 wrapping com.mysql.cj.jdbc.ConnectionImpl@ab146f] for JDBC transaction
+2026-09-02 17:20:20.456 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@585735577 wrapping com.mysql.cj.jdbc.ConnectionImpl@ab146f] to manual commit
+2026-09-02 17:20:20.459 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 17:20:20.459 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@585735577 wrapping com.mysql.cj.jdbc.ConnectionImpl@ab146f]
+2026-09-02 17:20:20.463 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@585735577 wrapping com.mysql.cj.jdbc.ConnectionImpl@ab146f] after transaction
+2026-09-02 17:20:20.463 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 17:20:20.463 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 17:20:20.463 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@507107882 wrapping com.mysql.cj.jdbc.ConnectionImpl@3a81900f]
+2026-09-02 17:20:20.468 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@507107882 wrapping com.mysql.cj.jdbc.ConnectionImpl@3a81900f] after transaction
+2026-09-02 17:20:20.469 [http-nio-8080-exec-4] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T17:20:20.468005400, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=save, methodParams=[Emp(id=90, username=liyuanyuan, password=123456, name=李媛媛, gender=2, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=2026-09-02T17:20:20.441351700, updateTime=2026-09-02T17:20:20.441351700, deptName=null, exprList=[EmpExpr(id=null, empId=90, begin=2026-09-17, end=2026-10-13, company=雅思机构, job=讲师)])], returnValue=Result(code=1, msg=success, data=null), costTime=41, operateEmpName=null)
+2026-09-02 17:21:18.314 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-新增员工:Emp(id=null, username=liyuanyuan, password=null, name=李媛媛, gender=2, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2026-09-17, end=2026-10-13, company=雅思机构, job=讲师)])
+2026-09-02 17:21:18.314 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 17:21:18.317 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1649873539 wrapping com.mysql.cj.jdbc.ConnectionImpl@ab146f] for JDBC transaction
+2026-09-02 17:21:18.317 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1649873539 wrapping com.mysql.cj.jdbc.ConnectionImpl@ab146f] to manual commit
+2026-09-02 17:21:18.513 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 17:21:18.515 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1248947519 wrapping com.mysql.cj.jdbc.ConnectionImpl@3a81900f] for JDBC transaction
+2026-09-02 17:21:18.515 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1248947519 wrapping com.mysql.cj.jdbc.ConnectionImpl@3a81900f] to manual commit
+2026-09-02 17:21:18.518 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 17:21:18.518 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1248947519 wrapping com.mysql.cj.jdbc.ConnectionImpl@3a81900f]
+2026-09-02 17:21:18.520 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1248947519 wrapping com.mysql.cj.jdbc.ConnectionImpl@3a81900f] after transaction
+2026-09-02 17:21:18.520 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 17:21:18.520 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction rollback
+2026-09-02 17:21:18.520 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Rolling back JDBC transaction on Connection [HikariProxyConnection@1649873539 wrapping com.mysql.cj.jdbc.ConnectionImpl@ab146f]
+2026-09-02 17:21:18.523 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1649873539 wrapping com.mysql.cj.jdbc.ConnectionImpl@ab146f] after transaction
+2026-09-02 17:21:18.525 [http-nio-8080-exec-8] ERROR c.z.t.exception.GlobalExceptionHandler-DuplicateKeyException:
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'liyuanyuan' for key 'emp.username'
+### The error may exist in com/zly/tliaswebmanagement/mapper/EmpMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into emp(username,password,name,gender,phone,job,salary,image,entry_date,dept_id,create_time,update_time)         values(                   ?,                   ?,                   ?,                   ?,                   ?,                   ?,                   ?,                   ?,                   ?,                   ?,                   ?,                   ?               )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'liyuanyuan' for key 'emp.username'
+; Duplicate entry 'liyuanyuan' for key 'emp.username'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:254)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:95)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:347)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.insert(Unknown Source)
+	at com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:93)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.zly.tliaswebmanagement.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.zly.tliaswebmanagement.controller.EmpController.save(EmpController.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.zly.tliaswebmanagement.aop.RecordOperateLog.recordTime(RecordOperateLog.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.zly.tliaswebmanagement.controller.EmpController$$SpringCGLIB$$0.save(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'liyuanyuan' for key 'emp.username'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:383)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy104.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy100.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	... 83 common frames omitted
+2026-09-02 17:21:21.939 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:21:21.940 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:24:49.896 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:24:49.897 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:25:30.906 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-新增员工:Emp(id=null, username=test, password=null, name=特斯特, gender=1, phone=13682100899, job=1, salary=1, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/c736be74-7822-4719-8947-ae579b68e95b.jpg, entryDate=2026-09-08, deptId=7, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2026-10-19, end=2026-10-23, company=11, job=22)])
+2026-09-02 17:25:30.906 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 17:25:30.907 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2122850453 wrapping com.mysql.cj.jdbc.ConnectionImpl@ab146f] for JDBC transaction
+2026-09-02 17:25:30.907 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2122850453 wrapping com.mysql.cj.jdbc.ConnectionImpl@ab146f] to manual commit
+2026-09-02 17:25:30.914 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 17:25:30.914 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1633640084 wrapping com.mysql.cj.jdbc.ConnectionImpl@3a81900f] for JDBC transaction
+2026-09-02 17:25:30.914 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1633640084 wrapping com.mysql.cj.jdbc.ConnectionImpl@3a81900f] to manual commit
+2026-09-02 17:25:30.914 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 17:25:30.914 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1633640084 wrapping com.mysql.cj.jdbc.ConnectionImpl@3a81900f]
+2026-09-02 17:25:30.918 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1633640084 wrapping com.mysql.cj.jdbc.ConnectionImpl@3a81900f] after transaction
+2026-09-02 17:25:30.918 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 17:25:30.919 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 17:25:30.919 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2122850453 wrapping com.mysql.cj.jdbc.ConnectionImpl@ab146f]
+2026-09-02 17:25:30.920 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2122850453 wrapping com.mysql.cj.jdbc.ConnectionImpl@ab146f] after transaction
+2026-09-02 17:25:30.920 [http-nio-8080-exec-5] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T17:25:30.920190100, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=save, methodParams=[Emp(id=92, username=test, password=123456, name=特斯特, gender=1, phone=13682100899, job=1, salary=1, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/c736be74-7822-4719-8947-ae579b68e95b.jpg, entryDate=2026-09-08, deptId=7, createTime=2026-09-02T17:25:30.908819800, updateTime=2026-09-02T17:25:30.908819800, deptName=null, exprList=[EmpExpr(id=null, empId=92, begin=2026-10-19, end=2026-10-23, company=11, job=22)])], returnValue=Result(code=1, msg=success, data=null), costTime=14, operateEmpName=null)
+2026-09-02 17:25:30.932 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:25:52.664 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:25:52.665 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:28:01.019 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:28:01.020 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:29:00.033 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:29:00.034 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:34:20.533 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:34:20.534 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:35:15.595 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:35:15.595 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:37:46.043 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:37:46.044 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:38:25.072 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:38:25.073 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:52:01.321 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:52:01.321 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:56:25.521 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:56:25.522 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:57:50.348 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:57:50.348 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 17:58:05.653 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 17:58:05.653 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:02:04.092 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:02:04.092 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:03:53.561 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:03:53.561 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:03:53.710 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:03:53.710 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:04:38.681 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:04:38.681 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:05:11.264 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:05:11.264 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:05:52.012 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:05:52.012 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:05:52.190 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:05:52.190 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:09:24.940 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:09:24.940 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:09:27.255 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:09:45.403 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:09:45.403 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:09:46.319 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:09:57.128 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:2
+2026-09-02 18:09:59.876 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:8
+2026-09-02 18:10:02.922 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:8
+2026-09-02 18:13:28.850 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:13:28.851 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:13:31.445 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:13:34.143 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-修改部门:Dept(id=90, name=李媛媛, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T17:20:20)
+2026-09-02 18:13:34.144 [http-nio-8080-exec-2] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T18:13:34.144655900, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=update, methodParams=[Dept(id=90, name=李媛媛, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T18:13:34.143766600)], returnValue=Result(code=1, msg=success, data=null), costTime=4, operateEmpName=null)
+2026-09-02 18:13:34.159 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:13:38.763 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:13:38.764 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:13:40.635 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:13:44.401 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-修改部门:Dept(id=90, name=李媛媛, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T17:20:20)
+2026-09-02 18:13:44.405 [http-nio-8080-exec-6] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T18:13:44.405264100, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=update, methodParams=[Dept(id=90, name=李媛媛, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T18:13:44.401389600)], returnValue=Result(code=1, msg=success, data=null), costTime=4, operateEmpName=null)
+2026-09-02 18:13:44.422 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:17:03.175 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:17:03.175 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:17:06.619 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:17:08.522 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:17:10.661 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:17:10.661 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:17:14.857 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:17:17.328 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改员工:Emp(id=90, username=liyuanyuan, password=123456, name=李媛媛, gender=1, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T17:20:20, deptName=null, exprList=[EmpExpr(id=27, empId=90, begin=null, end=null, company=雅思机构, job=讲师)])
+2026-09-02 18:17:17.328 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.update]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 18:17:17.331 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@340576140 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] for JDBC transaction
+2026-09-02 18:17:17.332 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@340576140 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] to manual commit
+2026-09-02 18:17:17.343 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 18:17:17.344 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@826661298 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] for JDBC transaction
+2026-09-02 18:17:17.344 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@826661298 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] to manual commit
+2026-09-02 18:17:17.346 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:17:17.346 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@826661298 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851]
+2026-09-02 18:17:17.349 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@826661298 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] after transaction
+2026-09-02 18:17:17.349 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 18:17:17.349 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:17:17.349 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@340576140 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93]
+2026-09-02 18:17:17.353 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@340576140 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] after transaction
+2026-09-02 18:17:17.353 [http-nio-8080-exec-8] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T18:17:17.353676900, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=update, methodParams=[Emp(id=90, username=liyuanyuan, password=123456, name=李媛媛, gender=1, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T18:17:17.332087200, deptName=null, exprList=[EmpExpr(id=27, empId=90, begin=null, end=null, company=雅思机构, job=讲师)])], returnValue=Result(code=1, msg=success, data=null), costTime=25, operateEmpName=null)
+2026-09-02 18:17:17.366 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:17:19.708 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:17:22.798 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改员工:Emp(id=90, username=liyuanyuan, password=123456, name=李媛媛, gender=2, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T18:17:17, deptName=null, exprList=[EmpExpr(id=29, empId=90, begin=null, end=null, company=雅思机构, job=讲师)])
+2026-09-02 18:17:22.798 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.update]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 18:17:22.801 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1476160969 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] for JDBC transaction
+2026-09-02 18:17:22.801 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1476160969 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] to manual commit
+2026-09-02 18:17:22.810 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 18:17:22.810 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2026250863 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] for JDBC transaction
+2026-09-02 18:17:22.810 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2026250863 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] to manual commit
+2026-09-02 18:17:22.816 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:17:22.816 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2026250863 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851]
+2026-09-02 18:17:22.819 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2026250863 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] after transaction
+2026-09-02 18:17:22.819 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 18:17:22.819 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:17:22.819 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1476160969 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93]
+2026-09-02 18:17:22.824 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1476160969 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] after transaction
+2026-09-02 18:17:22.824 [http-nio-8080-exec-3] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T18:17:22.824322600, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=update, methodParams=[Emp(id=90, username=liyuanyuan, password=123456, name=李媛媛, gender=2, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T18:17:22.802497900, deptName=null, exprList=[EmpExpr(id=29, empId=90, begin=null, end=null, company=雅思机构, job=讲师)])], returnValue=Result(code=1, msg=success, data=null), costTime=26, operateEmpName=null)
+2026-09-02 18:17:22.836 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:18:14.326 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:18:14.326 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:18:19.549 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:2
+2026-09-02 18:18:21.348 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改员工:Emp(id=2, username=songjiang, password=123456, name=宋江, gender=1, phone=13309090002, job=2, salary=8600, image=https://dawn-itcast.oss-cn-hangzhou.aliyuncs.com/01.png, entryDate=2015-01-01, deptId=2, createTime=2024-10-27T16:35:33, updateTime=2026-05-24T10:58:28, deptName=null, exprList=[])
+2026-09-02 18:18:21.348 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.update]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 18:18:21.352 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@838735287 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] for JDBC transaction
+2026-09-02 18:18:21.352 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@838735287 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] to manual commit
+2026-09-02 18:18:21.356 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 18:18:21.356 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@226275606 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] for JDBC transaction
+2026-09-02 18:18:21.356 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@226275606 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] to manual commit
+2026-09-02 18:18:21.356 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:18:21.356 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@226275606 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93]
+2026-09-02 18:18:21.361 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@226275606 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] after transaction
+2026-09-02 18:18:21.361 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 18:18:21.361 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:18:21.361 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@838735287 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851]
+2026-09-02 18:18:21.365 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@838735287 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] after transaction
+2026-09-02 18:18:21.365 [http-nio-8080-exec-5] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T18:18:21.365062600, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=update, methodParams=[Emp(id=2, username=songjiang, password=123456, name=宋江, gender=1, phone=13309090002, job=2, salary=8600, image=https://dawn-itcast.oss-cn-hangzhou.aliyuncs.com/01.png, entryDate=2015-01-01, deptId=2, createTime=2024-10-27T16:35:33, updateTime=2026-09-02T18:18:21.352450900, deptName=null, exprList=[])], returnValue=Result(code=1, msg=success, data=null), costTime=17, operateEmpName=null)
+2026-09-02 18:18:21.373 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:18:35.661 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:2
+2026-09-02 18:18:40.746 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改员工:Emp(id=2, username=songjiang, password=123456, name=宋江, gender=1, phone=13309090002, job=2, salary=8600, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/23c3ad7d-6a8b-4bff-ac7b-191b621b29ae.jpg, entryDate=2015-01-01, deptId=2, createTime=2024-10-27T16:35:33, updateTime=2026-09-02T18:18:21, deptName=null, exprList=[])
+2026-09-02 18:18:40.746 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.update]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 18:18:40.749 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1643242983 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] for JDBC transaction
+2026-09-02 18:18:40.749 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1643242983 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] to manual commit
+2026-09-02 18:18:40.757 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 18:18:40.758 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1223312290 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] for JDBC transaction
+2026-09-02 18:18:40.758 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1223312290 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] to manual commit
+2026-09-02 18:18:40.758 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:18:40.758 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1223312290 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851]
+2026-09-02 18:18:40.766 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1223312290 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] after transaction
+2026-09-02 18:18:40.766 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 18:18:40.766 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:18:40.766 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1643242983 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93]
+2026-09-02 18:18:40.766 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1643242983 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] after transaction
+2026-09-02 18:18:40.766 [http-nio-8080-exec-9] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T18:18:40.766803300, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=update, methodParams=[Emp(id=2, username=songjiang, password=123456, name=宋江, gender=1, phone=13309090002, job=2, salary=8600, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/23c3ad7d-6a8b-4bff-ac7b-191b621b29ae.jpg, entryDate=2015-01-01, deptId=2, createTime=2024-10-27T16:35:33, updateTime=2026-09-02T18:18:40.752042300, deptName=null, exprList=[])], returnValue=Result(code=1, msg=success, data=null), costTime=20, operateEmpName=null)
+2026-09-02 18:18:40.779 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:19:33.662 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:19:40.280 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:81
+2026-09-02 18:19:42.802 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:2
+2026-09-02 18:19:44.576 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:8
+2026-09-02 18:19:46.295 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:19:50.825 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:81
+2026-09-02 18:19:55.481 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改员工:Emp(id=81, username=Shirley林, password=123456, name=林诗墨, gender=2, phone=13682100816, job=3, salary=100000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/04/cb35cf96-89ea-4c75-9e85-3f37a80c275f.jpg, entryDate=2026-04-01, deptId=5, createTime=2026-04-09T17:23:41, updateTime=2026-04-09T17:23:41, deptName=null, exprList=[EmpExpr(id=26, empId=81, begin=2026-09-17, end=2026-10-14, company=纽约艺术学院, job=钢琴家)])
+2026-09-02 18:19:55.481 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.update]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 18:19:55.481 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@531303240 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] for JDBC transaction
+2026-09-02 18:19:55.481 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@531303240 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] to manual commit
+2026-09-02 18:19:55.488 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 18:19:55.488 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@990055314 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] for JDBC transaction
+2026-09-02 18:19:55.488 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@990055314 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] to manual commit
+2026-09-02 18:19:55.491 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:19:55.491 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@990055314 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851]
+2026-09-02 18:19:55.493 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@990055314 wrapping com.mysql.cj.jdbc.ConnectionImpl@3e480851] after transaction
+2026-09-02 18:19:55.493 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 18:19:55.493 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:19:55.493 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@531303240 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93]
+2026-09-02 18:19:55.495 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@531303240 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] after transaction
+2026-09-02 18:19:55.496 [http-nio-8080-exec-8] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T18:19:55.496097600, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=update, methodParams=[Emp(id=81, username=Shirley林, password=123456, name=林诗墨, gender=2, phone=13682100816, job=3, salary=100000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/04/cb35cf96-89ea-4c75-9e85-3f37a80c275f.jpg, entryDate=2026-04-01, deptId=5, createTime=2026-04-09T17:23:41, updateTime=2026-09-02T18:19:55.483107600, deptName=null, exprList=[EmpExpr(id=26, empId=81, begin=2026-09-17, end=2026-10-14, company=纽约艺术学院, job=钢琴家)])], returnValue=Result(code=1, msg=success, data=null), costTime=15, operateEmpName=null)
+2026-09-02 18:19:55.505 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:19:57.356 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:81
+2026-09-02 18:20:07.922 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:20:12.315 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:81
+2026-09-02 18:20:15.890 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:81
+2026-09-02 18:20:18.241 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:20:19.065 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改员工:Emp(id=90, username=liyuanyuan, password=123456, name=李媛媛, gender=2, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T18:17:23, deptName=null, exprList=[EmpExpr(id=30, empId=90, begin=null, end=null, company=雅思机构, job=讲师)])
+2026-09-02 18:20:19.065 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.update]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 18:20:19.065 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@249637296 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] for JDBC transaction
+2026-09-02 18:20:19.066 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@249637296 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] to manual commit
+2026-09-02 18:20:19.072 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 18:20:19.074 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@547404580 wrapping com.mysql.cj.jdbc.ConnectionImpl@4f2beba7] for JDBC transaction
+2026-09-02 18:20:19.075 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@547404580 wrapping com.mysql.cj.jdbc.ConnectionImpl@4f2beba7] to manual commit
+2026-09-02 18:20:19.076 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:20:19.076 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@547404580 wrapping com.mysql.cj.jdbc.ConnectionImpl@4f2beba7]
+2026-09-02 18:20:19.079 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@547404580 wrapping com.mysql.cj.jdbc.ConnectionImpl@4f2beba7] after transaction
+2026-09-02 18:20:19.079 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 18:20:19.079 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:20:19.081 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@249637296 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93]
+2026-09-02 18:20:19.083 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@249637296 wrapping com.mysql.cj.jdbc.ConnectionImpl@233b4f93] after transaction
+2026-09-02 18:20:19.083 [http-nio-8080-exec-4] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T18:20:19.083504500, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=update, methodParams=[Emp(id=90, username=liyuanyuan, password=123456, name=李媛媛, gender=2, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T18:20:19.066623, deptName=null, exprList=[EmpExpr(id=30, empId=90, begin=null, end=null, company=雅思机构, job=讲师)])], returnValue=Result(code=1, msg=success, data=null), costTime=18, operateEmpName=null)
+2026-09-02 18:20:19.094 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:20:20.913 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:23:35.987 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:23:35.987 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:26:58.858 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:26:58.858 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:27:51.256 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:27:51.256 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:27:53.633 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:27:58.347 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改员工:Emp(id=90, username=liyuanyuan, password=123456, name=李媛媛, gender=2, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T18:20:19, deptName=null, exprList=[EmpExpr(id=32, empId=90, begin=2026-09-17, end=2026-10-13, company=雅思机构, job=讲师)])
+2026-09-02 18:27:58.347 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.update]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 18:27:58.348 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@703442134 wrapping com.mysql.cj.jdbc.ConnectionImpl@7e0b36ee] for JDBC transaction
+2026-09-02 18:27:58.348 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@703442134 wrapping com.mysql.cj.jdbc.ConnectionImpl@7e0b36ee] to manual commit
+2026-09-02 18:27:58.353 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 18:27:58.353 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@88323161 wrapping com.mysql.cj.jdbc.ConnectionImpl@6847faa5] for JDBC transaction
+2026-09-02 18:27:58.353 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@88323161 wrapping com.mysql.cj.jdbc.ConnectionImpl@6847faa5] to manual commit
+2026-09-02 18:27:58.355 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:27:58.356 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@88323161 wrapping com.mysql.cj.jdbc.ConnectionImpl@6847faa5]
+2026-09-02 18:27:58.357 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@88323161 wrapping com.mysql.cj.jdbc.ConnectionImpl@6847faa5] after transaction
+2026-09-02 18:27:58.357 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 18:27:58.357 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:27:58.357 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@703442134 wrapping com.mysql.cj.jdbc.ConnectionImpl@7e0b36ee]
+2026-09-02 18:27:58.357 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@703442134 wrapping com.mysql.cj.jdbc.ConnectionImpl@7e0b36ee] after transaction
+2026-09-02 18:27:58.357 [http-nio-8080-exec-4] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T18:27:58.357020800, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=update, methodParams=[Emp(id=90, username=liyuanyuan, password=123456, name=李媛媛, gender=2, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T18:27:58.348711500, deptName=null, exprList=[EmpExpr(id=32, empId=90, begin=2026-09-17, end=2026-10-13, company=雅思机构, job=讲师)])], returnValue=Result(code=1, msg=success, data=null), costTime=10, operateEmpName=null)
+2026-09-02 18:27:58.366 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:27:59.667 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:28:03.515 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:81
+2026-09-02 18:28:05.875 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:2
+2026-09-02 18:28:07.887 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:81
+2026-09-02 18:28:10.124 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:28:12.948 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:28:15.315 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:81
+2026-09-02 18:30:27.077 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:30:45.157 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改员工:Emp(id=90, username=liyuanyuan, password=123456, name=李媛媛, gender=2, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T18:27:58, deptName=null, exprList=[EmpExpr(id=33, empId=90, begin=2026-09-17, end=2026-10-13, company=雅思机构, job=讲师), EmpExpr(id=null, empId=null, begin=2026-09-17, end=2026-10-14, company=物流公司, job=分拣员)])
+2026-09-02 18:30:45.157 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.update]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 18:30:45.160 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@241986577 wrapping com.mysql.cj.jdbc.ConnectionImpl@7e0b36ee] for JDBC transaction
+2026-09-02 18:30:45.160 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@241986577 wrapping com.mysql.cj.jdbc.ConnectionImpl@7e0b36ee] to manual commit
+2026-09-02 18:30:45.169 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 18:30:45.169 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2020644938 wrapping com.mysql.cj.jdbc.ConnectionImpl@6847faa5] for JDBC transaction
+2026-09-02 18:30:45.169 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2020644938 wrapping com.mysql.cj.jdbc.ConnectionImpl@6847faa5] to manual commit
+2026-09-02 18:30:45.172 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:30:45.172 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2020644938 wrapping com.mysql.cj.jdbc.ConnectionImpl@6847faa5]
+2026-09-02 18:30:45.173 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2020644938 wrapping com.mysql.cj.jdbc.ConnectionImpl@6847faa5] after transaction
+2026-09-02 18:30:45.173 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 18:30:45.173 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:30:45.175 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@241986577 wrapping com.mysql.cj.jdbc.ConnectionImpl@7e0b36ee]
+2026-09-02 18:30:45.177 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@241986577 wrapping com.mysql.cj.jdbc.ConnectionImpl@7e0b36ee] after transaction
+2026-09-02 18:30:45.177 [http-nio-8080-exec-4] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T18:30:45.177572600, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=update, methodParams=[Emp(id=90, username=liyuanyuan, password=123456, name=李媛媛, gender=2, phone=13372111792, job=4, salary=30000, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/f2b43822-c104-4b69-8cb8-2fdc7c24c313.jpg, entryDate=2026-09-02, deptId=1, createTime=2026-09-02T17:20:20, updateTime=2026-09-02T18:30:45.160102900, deptName=null, exprList=[EmpExpr(id=33, empId=90, begin=2026-09-17, end=2026-10-13, company=雅思机构, job=讲师), EmpExpr(id=null, empId=90, begin=2026-09-17, end=2026-10-14, company=物流公司, job=分拣员)])], returnValue=Result(code=1, msg=success, data=null), costTime=20, operateEmpName=null)
+2026-09-02 18:30:45.191 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:30:47.097 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-修改回显:90
+2026-09-02 18:34:24.232 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m28s886ms991µs100ns).
+2026-09-02 18:34:26.188 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:34:26.188 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:37:14.155 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:37:14.155 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:40:43.866 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:40:43.869 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:41:03.975 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:41:03.975 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:41:28.825 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:41:28.825 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:43:22.890 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:43:22.891 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:45:37.811 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:45:37.812 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:47:54.917 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:47:54.917 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:48:15.923 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:48:15.923 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:48:36.424 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:48:36.424 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:49:23.718 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:49:23.719 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:50:02.740 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-新增员工:Emp(id=null, username=tommy, password=null, name=汤米, gender=1, phone=13345678900, job=1, salary=1, image=, entryDate=2026-09-01, deptId=3, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 18:50:02.740 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 18:50:02.740 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@330940358 wrapping com.mysql.cj.jdbc.ConnectionImpl@2387600e] for JDBC transaction
+2026-09-02 18:50:02.740 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@330940358 wrapping com.mysql.cj.jdbc.ConnectionImpl@2387600e] to manual commit
+2026-09-02 18:50:02.746 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 18:50:02.746 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1944076728 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e26932e] for JDBC transaction
+2026-09-02 18:50:02.746 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1944076728 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e26932e] to manual commit
+2026-09-02 18:50:02.746 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:50:02.746 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1944076728 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e26932e]
+2026-09-02 18:50:02.750 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1944076728 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e26932e] after transaction
+2026-09-02 18:50:02.750 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 18:50:02.750 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:50:02.750 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@330940358 wrapping com.mysql.cj.jdbc.ConnectionImpl@2387600e]
+2026-09-02 18:50:02.755 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@330940358 wrapping com.mysql.cj.jdbc.ConnectionImpl@2387600e] after transaction
+2026-09-02 18:50:02.755 [http-nio-8080-exec-3] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T18:50:02.755203600, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=save, methodParams=[Emp(id=93, username=tommy, password=123456, name=汤米, gender=1, phone=13345678900, job=1, salary=1, image=, entryDate=2026-09-01, deptId=3, createTime=2026-09-02T18:50:02.741596800, updateTime=2026-09-02T18:50:02.741596800, deptName=null, exprList=[])], returnValue=Result(code=1, msg=success, data=null), costTime=15, operateEmpName=null)
+2026-09-02 18:50:02.768 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:50:05.367 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-删除员工:[93]
+2026-09-02 18:50:05.367 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.remove]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 18:50:05.367 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@839050538 wrapping com.mysql.cj.jdbc.ConnectionImpl@2387600e] for JDBC transaction
+2026-09-02 18:50:05.367 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@839050538 wrapping com.mysql.cj.jdbc.ConnectionImpl@2387600e] to manual commit
+2026-09-02 18:50:05.370 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 18:50:05.374 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@55824231 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e26932e] for JDBC transaction
+2026-09-02 18:50:05.374 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@55824231 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e26932e] to manual commit
+2026-09-02 18:50:05.375 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:50:05.375 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@55824231 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e26932e]
+2026-09-02 18:50:05.378 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@55824231 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e26932e] after transaction
+2026-09-02 18:50:05.378 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 18:50:05.379 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 18:50:05.379 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@839050538 wrapping com.mysql.cj.jdbc.ConnectionImpl@2387600e]
+2026-09-02 18:50:05.380 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@839050538 wrapping com.mysql.cj.jdbc.ConnectionImpl@2387600e] after transaction
+2026-09-02 18:50:05.380 [http-nio-8080-exec-1] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T18:50:05.380560200, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=remove, methodParams=[[93]], returnValue=Result(code=1, msg=success, data=null), costTime=13, operateEmpName=null)
+2026-09-02 18:50:05.392 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:52:41.398 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:52:41.399 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:53:42.306 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:53:42.306 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:57:12.654 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:57:12.654 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:58:10.846 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:58:10.846 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 18:59:42.390 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 18:59:42.390 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:01:24.000 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 19:01:24.000 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:03:25.963 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 19:03:25.963 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:06:05.825 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 19:06:05.825 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:06:54.561 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 19:06:54.561 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:13:18.197 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 19:13:18.198 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:15:05.142 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:16:33.085 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 19:16:33.086 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:17:18.723 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 19:17:18.723 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:17:33.438 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 19:17:33.438 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:17:51.482 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-新增员工:Emp(id=null, username=123, password=null, name=123, gender=1, phone=12234567890, job=1, salary=31, image=, entryDate=2026-08-31, deptId=7, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 19:17:51.483 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 19:17:51.483 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@289815422 wrapping com.mysql.cj.jdbc.ConnectionImpl@16fbd6e7] for JDBC transaction
+2026-09-02 19:17:51.483 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@289815422 wrapping com.mysql.cj.jdbc.ConnectionImpl@16fbd6e7] to manual commit
+2026-09-02 19:17:51.486 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 19:17:51.487 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1072678533 wrapping com.mysql.cj.jdbc.ConnectionImpl@5eafb474] for JDBC transaction
+2026-09-02 19:17:51.487 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1072678533 wrapping com.mysql.cj.jdbc.ConnectionImpl@5eafb474] to manual commit
+2026-09-02 19:17:51.489 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 19:17:51.489 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1072678533 wrapping com.mysql.cj.jdbc.ConnectionImpl@5eafb474]
+2026-09-02 19:17:51.492 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1072678533 wrapping com.mysql.cj.jdbc.ConnectionImpl@5eafb474] after transaction
+2026-09-02 19:17:51.492 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 19:17:51.494 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 19:17:51.494 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@289815422 wrapping com.mysql.cj.jdbc.ConnectionImpl@16fbd6e7]
+2026-09-02 19:17:51.495 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@289815422 wrapping com.mysql.cj.jdbc.ConnectionImpl@16fbd6e7] after transaction
+2026-09-02 19:17:51.495 [http-nio-8080-exec-9] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T19:17:51.495103800, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=save, methodParams=[Emp(id=94, username=123, password=123456, name=123, gender=1, phone=12234567890, job=1, salary=31, image=, entryDate=2026-08-31, deptId=7, createTime=2026-09-02T19:17:51.484582200, updateTime=2026-09-02T19:17:51.484582200, deptName=null, exprList=[])], returnValue=Result(code=1, msg=success, data=null), costTime=13, operateEmpName=null)
+2026-09-02 19:17:51.507 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:18:27.606 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-新增员工:Emp(id=null, username=456, password=null, name=1334567899, gender=2, phone=13345678991, job=1, salary=3, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/4c4ebb1c-c86b-4388-83eb-75b7fa153bba.jpg, entryDate=2026-09-09, deptId=7, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2026-09-23, end=2026-10-13, company=ttt, job=ttt)])
+2026-09-02 19:18:27.606 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 19:18:27.606 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1463387200 wrapping com.mysql.cj.jdbc.ConnectionImpl@5eafb474] for JDBC transaction
+2026-09-02 19:18:27.606 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1463387200 wrapping com.mysql.cj.jdbc.ConnectionImpl@5eafb474] to manual commit
+2026-09-02 19:18:27.611 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 19:18:27.611 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1028653747 wrapping com.mysql.cj.jdbc.ConnectionImpl@187e3dc5] for JDBC transaction
+2026-09-02 19:18:27.611 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1028653747 wrapping com.mysql.cj.jdbc.ConnectionImpl@187e3dc5] to manual commit
+2026-09-02 19:18:27.614 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 19:18:27.614 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1028653747 wrapping com.mysql.cj.jdbc.ConnectionImpl@187e3dc5]
+2026-09-02 19:18:27.616 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1028653747 wrapping com.mysql.cj.jdbc.ConnectionImpl@187e3dc5] after transaction
+2026-09-02 19:18:27.616 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 19:18:27.617 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 19:18:27.617 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1463387200 wrapping com.mysql.cj.jdbc.ConnectionImpl@5eafb474]
+2026-09-02 19:18:27.617 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1463387200 wrapping com.mysql.cj.jdbc.ConnectionImpl@5eafb474] after transaction
+2026-09-02 19:18:27.617 [http-nio-8080-exec-4] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T19:18:27.617621800, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=save, methodParams=[Emp(id=95, username=456, password=123456, name=1334567899, gender=2, phone=13345678991, job=1, salary=3, image=https://java-ai-continentca.oss-cn-beijing.aliyuncs.com/2026/09/4c4ebb1c-c86b-4388-83eb-75b7fa153bba.jpg, entryDate=2026-09-09, deptId=7, createTime=2026-09-02T19:18:27.607623700, updateTime=2026-09-02T19:18:27.607623700, deptName=null, exprList=[EmpExpr(id=null, empId=95, begin=2026-09-23, end=2026-10-13, company=ttt, job=ttt)])], returnValue=Result(code=1, msg=success, data=null), costTime=11, operateEmpName=null)
+2026-09-02 19:18:27.625 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:18:43.473 [http-nio-8080-exec-5] INFO  org.apache.coyote.http11.Http11Processor-Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/emps?ids=[object%20Object] ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:477)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-09-02 19:19:35.442 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 19:19:35.443 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:20:28.096 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 19:20:28.096 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:20:46.875 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-删除员工:[95, 94]
+2026-09-02 19:20:46.875 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpServiceImpl.remove]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2026-09-02 19:20:46.875 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2094663015 wrapping com.mysql.cj.jdbc.ConnectionImpl@187e3dc5] for JDBC transaction
+2026-09-02 19:20:46.875 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2094663015 wrapping com.mysql.cj.jdbc.ConnectionImpl@187e3dc5] to manual commit
+2026-09-02 19:20:46.880 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.zly.tliaswebmanagement.service.impl.EmpLogServiceImpl.insertLog]
+2026-09-02 19:20:46.881 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@2143861027 wrapping com.mysql.cj.jdbc.ConnectionImpl@68d5e3cc] for JDBC transaction
+2026-09-02 19:20:46.881 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@2143861027 wrapping com.mysql.cj.jdbc.ConnectionImpl@68d5e3cc] to manual commit
+2026-09-02 19:20:46.882 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 19:20:46.882 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2143861027 wrapping com.mysql.cj.jdbc.ConnectionImpl@68d5e3cc]
+2026-09-02 19:20:46.887 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2143861027 wrapping com.mysql.cj.jdbc.ConnectionImpl@68d5e3cc] after transaction
+2026-09-02 19:20:46.887 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2026-09-02 19:20:46.887 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2026-09-02 19:20:46.887 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@2094663015 wrapping com.mysql.cj.jdbc.ConnectionImpl@187e3dc5]
+2026-09-02 19:20:46.890 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@2094663015 wrapping com.mysql.cj.jdbc.ConnectionImpl@187e3dc5] after transaction
+2026-09-02 19:20:46.890 [http-nio-8080-exec-1] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-09-02T19:20:46.890760700, className=com.zly.tliaswebmanagement.controller.EmpController, methodName=remove, methodParams=[[95, 94]], returnValue=Result(code=1, msg=success, data=null), costTime=15, operateEmpName=null)
+2026-09-02 19:20:46.903 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 19:46:29.031 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 19:46:29.031 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 20:06:01.047 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=, password=, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 20:06:03.495 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=, password=, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 20:07:24.774 [http-nio-8080-exec-6] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=, password=, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 20:08:22.411 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02 20:08:22.416 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-02 20:08:22.421 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-02 20:08:22.424 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-02 20:08:26.160 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 40732 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-02 20:08:26.162 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-02 20:08:26.965 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-02 20:08:26.973 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-02 20:08:26.974 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-02 20:08:26.974 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-02 20:08:27.009 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-02 20:08:27.011 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 810 ms
+2026-09-02 20:08:27.506 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-02 20:08:27.518 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-02 20:08:27.522 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.651 seconds (process running for 2.261)
+2026-09-02 20:08:50.308 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02 20:08:50.308 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-02 20:08:50.309 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-09-02 20:08:50.383 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=asd, password=1233, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 20:08:50.398 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-02 20:08:50.643 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d5ebb5a
+2026-09-02 20:08:50.644 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-02 20:09:00.737 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=shirley林, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 20:09:00.744 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=81, username=Shirley林, password=null, name=林诗墨, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 20:09:16.346 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 20:09:16.351 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 20:09:17.449 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:09:17.909 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:09:17.910 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:09:18.562 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:12:37.043 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:26:09.948 [http-nio-8080-exec-2] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 20:26:09.955 [http-nio-8080-exec-2] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 20:26:13.339 [http-nio-8080-exec-10] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 20:26:13.342 [http-nio-8080-exec-10] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 20:27:13.222 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 20:27:13.228 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 20:28:47.813 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 20:28:47.818 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 20:31:07.319 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:07.319 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:07.778 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:09.769 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:09.769 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:10.153 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:50.456 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:51.506 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:51.506 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:51.851 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:53.143 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:53.143 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:55.507 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:31:59.214 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:32:00.972 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:32:00.972 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:32:03.214 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:32:04.091 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:32:04.091 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:32:04.557 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:32:13.955 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:32:13.955 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:32:15.653 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:33:52.421 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:33:52.493 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:33:52.493 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:33:52.913 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:34:05.347 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:34:21.529 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:34:21.596 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:34:21.596 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:34:22.795 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:34:25.304 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:34:25.304 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:35:14.466 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:35:16.208 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:35:16.208 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:54:22.631 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 20:54:22.634 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 20:54:26.164 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:54:26.170 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 20:54:26.633 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:54:26.632 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:54:26.633 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 20:54:26.647 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 20:54:31.628 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:54:31.628 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:54:31.628 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 20:54:31.629 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 20:54:33.381 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:54:33.380 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:54:33.381 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 20:54:33.382 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 20:57:18.587 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:57:18.587 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:58:04.855 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:58:04.855 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 20:58:45.648 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02 20:58:45.652 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-02 20:58:45.655 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-02 20:58:45.657 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-02 20:58:50.201 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 21300 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-02 20:58:50.202 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-02 20:58:50.983 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-02 20:58:50.990 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-02 20:58:50.992 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-02 20:58:50.992 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-02 20:58:51.024 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-02 20:58:51.025 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 788 ms
+2026-09-02 20:58:51.468 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-02 20:58:51.479 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-02 20:58:51.483 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.535 seconds (process running for 2.084)
+2026-09-02 20:59:16.815 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02 20:59:16.816 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-02 20:59:16.817 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-09-02 20:59:16.963 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:59:16.963 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:59:16.979 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 20:59:17.000 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 20:59:17.001 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-02 20:59:17.370 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@608b5f40
+2026-09-02 20:59:17.372 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-02 20:59:20.639 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:59:20.639 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 20:59:21.038 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:59:21.038 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:59:21.039 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 20:59:21.039 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 20:59:37.517 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:59:37.518 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 20:59:38.439 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:59:38.439 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 20:59:38.439 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 20:59:38.441 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:00:43.595 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02 21:00:43.599 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-02 21:00:43.601 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-02 21:00:43.604 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-02 21:00:51.460 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 17248 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-02 21:00:51.462 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-02 21:00:52.459 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-02 21:00:52.467 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-02 21:00:52.469 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-02 21:00:52.470 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-02 21:00:52.512 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-02 21:00:52.512 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1013 ms
+2026-09-02 21:00:53.079 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-02 21:00:53.089 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-02 21:00:53.094 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.961 seconds (process running for 2.568)
+2026-09-02 21:01:17.550 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02 21:01:17.550 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-02 21:01:17.550 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2026-09-02 21:01:17.668 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:01:17.677 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:01:17.693 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-02 21:01:17.953 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:01:17.965 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:01:17.982 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7df07db9
+2026-09-02 21:01:17.982 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-02 21:01:18.089 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:01:18.090 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:01:28.950 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=shirley林, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 21:01:28.959 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=81, username=Shirley林, password=null, name=林诗墨, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 21:01:30.593 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:01:30.594 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:01:31.055 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:01:31.055 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:01:31.055 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:01:31.055 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:01:40.921 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:01:40.921 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:01:45.851 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:01:45.851 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:01:45.851 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:01:45.852 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:11:44.521 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:12:15.780 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02 21:12:15.784 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-02 21:12:15.786 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-02 21:12:15.790 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-02 21:12:18.143 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 57992 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-02 21:12:18.144 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-02 21:12:18.938 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-02 21:12:18.945 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-02 21:12:18.945 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-02 21:12:18.945 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-02 21:12:18.983 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-02 21:12:18.983 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 803 ms
+2026-09-02 21:12:19.587 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-02 21:12:19.600 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-02 21:12:19.605 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.84 seconds (process running for 2.567)
+2026-09-02 21:12:23.117 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02 21:12:23.117 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-02 21:12:23.119 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-09-02 21:12:23.224 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:23.230 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:12:23.246 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-02 21:12:23.478 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:23.490 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:12:23.512 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18eb29a
+2026-09-02 21:12:23.516 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-02 21:12:23.635 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:23.635 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:12:23.997 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:23.997 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:12:24.408 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:24.408 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:12:24.410 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:24.411 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:12:25.076 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:25.077 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:12:25.943 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:25.943 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:25.944 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:12:25.945 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:12:39.897 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:39.897 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:12:58.406 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:58.406 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:58.406 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:12:58.408 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:12:58.807 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:12:58.807 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:13:00.489 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:13:00.489 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:13:02.709 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:13:02.709 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:13:08.552 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:13:08.552 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:13:08.552 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:13:08.553 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:13:08.998 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:13:08.998 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:13:14.716 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:13:14.717 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:13:15.097 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:13:15.097 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:13:15.097 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:13:15.098 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:13:16.399 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:13:16.399 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:13:16.400 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:13:16.400 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:13:18.567 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:13:18.567 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:13:18.567 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:13:18.567 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:19:04.695 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:19:04.696 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:19:04.697 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:19:04.697 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:20:35.853 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:20:35.853 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:20:35.854 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:20:35.854 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:21:46.622 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:21:46.623 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:21:46.623 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:21:46.623 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:21:51.292 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:22:07.976 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:23:39.963 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:23:39.963 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:23:39.963 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:23:39.964 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:23:47.397 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:27:30.612 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:35:25.260 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:35:25.261 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:35:25.856 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:35:25.856 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:35:25.857 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:35:25.857 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:35:42.788 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:35:43.459 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:35:43.459 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:35:50.451 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:36:04.624 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:38:06.341 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:38:55.392 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:38:59.019 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:41:40.905 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:41:40.905 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:41:41.612 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:41:42.131 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:41:42.131 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:41:46.278 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:41:47.769 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:41:47.769 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:42:12.723 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 21:42:12.730 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 21:42:14.525 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:42:14.525 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:42:14.825 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:42:14.825 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:42:14.825 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:42:14.828 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:43:54.872 [http-nio-8080-exec-10] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 21:43:54.873 [http-nio-8080-exec-10] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 21:45:05.421 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02 21:45:05.426 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-02 21:45:05.431 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-02 21:45:05.433 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-02 21:47:12.435 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 40460 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-02 21:47:12.437 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-02 21:47:13.586 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-02 21:47:13.595 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-02 21:47:13.597 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-02 21:47:13.597 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-02 21:47:13.645 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-02 21:47:13.646 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1149 ms
+2026-09-02 21:47:14.758 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-02 21:47:14.793 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-02 21:47:14.805 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.852 seconds (process running for 3.783)
+2026-09-02 21:47:15.280 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02 21:47:15.280 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-02 21:47:15.281 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-09-02 21:47:15.513 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:47:15.532 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:47:15.570 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-02 21:47:16.200 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@417bf6f4
+2026-09-02 21:47:16.204 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-02 21:47:20.725 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:47:20.725 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:47:21.218 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:47:21.219 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:47:21.219 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:47:21.236 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:53:20.574 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:53:28.628 [http-nio-8080-exec-9] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 21:53:28.633 [http-nio-8080-exec-9] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 21:53:29.784 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:53:29.784 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:53:30.154 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:53:30.154 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:53:30.154 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:53:30.154 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:53:45.442 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:53:59.196 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=shirley林, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 21:53:59.202 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=81, username=Shirley林, password=null, name=林诗墨, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 21:54:10.672 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:54:15.806 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 21:54:15.810 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 21:54:16.879 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:54:16.880 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:54:17.193 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:54:17.193 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:54:17.193 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:54:17.193 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 21:54:24.023 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:55:56.535 [http-nio-8080-exec-6] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 21:55:56.539 [http-nio-8080-exec-6] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 21:56:08.583 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:56:08.960 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:56:08.960 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:57:18.915 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:57:28.182 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 21:57:28.186 [http-nio-8080-exec-4] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 21:57:29.543 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 21:57:29.543 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 21:57:37.055 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 21:57:37.055 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:03:46.902 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 22:03:46.905 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 22:03:48.330 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:03:48.330 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:03:48.678 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:03:48.678 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:03:48.678 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:03:48.679 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 22:03:56.954 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:03:57.722 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:03:57.722 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:03:58.246 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:04:00.862 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:04:00.862 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:04:30.435 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:04:30.435 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:04:36.142 [http-nio-8080-exec-10] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 22:04:36.147 [http-nio-8080-exec-10] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 22:04:44.623 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:04:54.750 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=shirley林, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 22:04:54.754 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=81, username=Shirley林, password=null, name=林诗墨, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 22:04:56.941 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:04:56.941 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:04:56.942 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:04:56.942 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 22:04:57.285 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:04:57.285 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:05:15.165 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:05:15.165 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:05:25.371 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 22:05:25.373 [http-nio-8080-exec-7] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 22:05:26.680 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:05:26.680 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:05:26.681 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:05:26.681 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 22:05:37.043 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:07:08.670 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 22:07:08.672 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 22:07:12.465 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:07:12.465 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:07:13.171 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:07:13.171 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:07:13.171 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:07:13.173 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 22:07:22.395 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:10:02.523 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 22:10:02.525 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 22:13:50.508 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:13:50.508 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:13:51.529 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:13:51.529 [http-nio-8080-exec-6] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:13:51.530 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:13:51.530 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 22:13:52.011 [http-nio-8080-exec-8] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:13:52.011 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:13:53.217 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:13:53.219 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:14:05.330 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:14:05.330 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:14:15.779 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=shirley林, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 22:14:15.781 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=81, username=Shirley林, password=null, name=林诗墨, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 22:17:49.168 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:17:54.860 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 22:17:54.861 [http-nio-8080-exec-5] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 22:29:14.762 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02 22:29:14.767 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-02 22:29:14.770 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-02 22:29:14.771 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-02 22:32:13.707 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 56936 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-02 22:32:13.709 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-02 22:32:14.791 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-02 22:32:14.803 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-02 22:32:14.804 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-02 22:32:14.805 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-02 22:32:14.846 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-02 22:32:14.846 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1089 ms
+2026-09-02 22:32:15.512 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-02 22:32:15.526 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-02 22:32:15.531 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.446 seconds (process running for 3.648)
+2026-09-02 22:35:51.107 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-02 22:35:51.107 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-02 22:35:51.111 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 4 ms
+2026-09-02 22:35:51.206 [http-nio-8080-exec-1] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=shirley林, password=123446, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 22:35:51.227 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-02 22:35:51.529 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13c45ee1
+2026-09-02 22:35:51.529 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-02 22:35:53.326 [http-nio-8080-exec-2] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=shirley林, password=1234466, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 22:35:56.188 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=shirley林, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 22:35:56.194 [http-nio-8080-exec-3] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=81, username=Shirley林, password=null, name=林诗墨, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 22:35:58.439 [http-nio-8080-exec-4] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:35:58.439 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:35:58.735 [http-nio-8080-exec-5] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:35:58.735 [http-nio-8080-exec-9] INFO  c.z.t.interceptor.TokenInterceptor-令牌合法 放行
+2026-09-02 22:35:58.735 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-02 22:35:58.747 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-02 22:37:21.915 [http-nio-8080-exec-7] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:37:57.521 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.controller.LoginController-登录:Emp(id=null, username=shirley林, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2026-09-02 22:37:57.524 [http-nio-8080-exec-8] INFO  c.z.tliaswebmanagement.service.impl.EmpServiceImpl-登陆成功,员工信息:Emp(id=81, username=Shirley林, password=null, name=林诗墨, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-02 22:38:07.026 [http-nio-8080-exec-10] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-09-02 22:38:16.562 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-02 22:38:16.568 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-02 22:38:16.571 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-02 22:38:16.578 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

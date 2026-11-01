@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zly.tliaswebmanagement.mapper.ClassMapper">
+
+    <resultMap id="MyClassResultMap" type="com.zly.tliaswebmanagement.pojo.MyClass">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="room" property="room"/>
+        <result column="begin_date" property="beginDate"/>
+        <result column="end_date" property="endDate"/>
+        <result column="master_id" property="masterId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="master_name" property="masterName"/>
+        <result column="subject" property="subject"/>
+        <result column="status" property="status"/>
+    </resultMap>
+
+    <select id="page" resultMap="MyClassResultMap">
+    select
+    id,
+    name,
+    room,
+    begin_date,
+    end_date,
+    master_id,
+    master_name,
+    create_time,
+    update_time,
+    status
+    from tlias.class
+    <where>
+        <if test="p.name != null and p.name != ''">
+            and name like concat('%',#{p.name},'%')
+        </if>
+        <if test="p.begin != null">
+            and end_date &gt;= #{p.begin}
+        </if>
+        <if test="p.end != null">
+            and end_date &lt;= #{p.end}
+        </if>
+    </where>
+</select>
+
+<delete id="deleteById">
+    delete from tlias.class as c
+           where c.id = #{id};
+</delete>
+
+<insert id="addClass">
+    INSERT INTO tlias.class (name, room, begin_date, end_date, master_id, subject)
+    VALUES
+        (#{class.name}, #{class.room}, #{class.beginDate}, #{class.endDate}, #{class.masterId}, #{class.subject})
+</insert>
+
+<select id="FindById" resultMap="MyClassResultMap">
+    select c.id,
+           c.name,
+           c.room,
+           c.begin_date,
+           c.end_date,
+           c.master_id,
+           c.subject,
+           c.create_time,
+           c.update_time from tlias.class as c
+    where c.id = #{id};
+</select>
+
+
+<update id="update">
+    UPDATE tlias.class
+    SET
+        name = #{myclass.name},
+        room = #{myclass.room},
+        begin_date = #{myclass.beginDate},
+        end_date = #{myclass.endDate},
+        master_id = #{myclass.masterId},
+        subject = #{myclass.subject},
+        update_time = NOW()
+    WHERE id = #{myclass.id}
+</update>
+
+<select id="findAll" resultMap="MyClassResultMap">
+    select c.id,
+           c.name,
+           c.room,
+           c.begin_date,
+           c.end_date,
+           c.master_id,
+           c.subject,
+           c.create_time,
+           c.update_time from tlias.class as c
+</select>
+
+</mapper>

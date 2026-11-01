@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zly.tliaswebmanagement.mapper.OperateLogMapper">
+
+    <resultMap id="OperateLogMap" type="com.zly.tliaswebmanagement.pojo.OperateLog">
+        <id column="id" property="id"/>
+        <result column="operate_emp_id" property="operateEmpId"/>
+        <result column="operate_time" property="operateTime"/>
+        <result column="class_name" property="className"/>
+        <result column="method_name" property="methodName"/>
+        <result column="method_params" property="methodParams"/>
+        <result column="return_value" property="returnValue"/>
+        <result column="cost_time" property="costTime"/>
+
+        <!--从emp表中查询员工name 赋值给operateEmpName-->
+        <result column="name" property="operateEmpName"/>
+    </resultMap>
+
+    <select id="page" resultMap="OperateLogMap">
+        select l.id,
+               l.operate_emp_id,
+               l.operate_time,
+               l.class_name,
+               l.method_name,
+               l.method_params,
+               l.return_value,
+               l.cost_time,
+               e.name
+        from tlias.operate_log as l
+                 inner join tlias.emp as e
+                            on l.operate_emp_id = e.id
+        order by operate_time desc
+    </select>
+
+</mapper>

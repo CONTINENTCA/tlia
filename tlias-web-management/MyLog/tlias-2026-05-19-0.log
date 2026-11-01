@@ -1,0 +1,172 @@
+2026-05-19 14:18:47.687 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 158164 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-05-19 14:18:47.689 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-05-19 14:18:48.946 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-05-19 14:18:48.964 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-19 14:18:48.965 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-05-19 14:18:48.966 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-05-19 14:18:49.042 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-05-19 14:18:49.042 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1308 ms
+2026-05-19 14:18:49.897 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-05-19 14:18:49.912 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-05-19 14:18:49.918 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.68 seconds (process running for 3.765)
+2026-05-19 14:19:05.492 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-19 14:19:05.492 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-05-19 14:19:05.494 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2026-05-19 14:19:05.551 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:19:05.593 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-05-19 14:19:06.511 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45275d34
+2026-05-19 14:19:06.514 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-05-19 14:28:25.745 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:28:29.714 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-新增部门:Dept(id=null, name=, createTime=null, updateTime=null)
+2026-05-19 14:28:29.749 [http-nio-8080-exec-1] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T14:28:29.741750200, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=add, methodParams=[Dept(id=null, name=, createTime=2026-05-19T14:28:29.714125500, updateTime=2026-05-19T14:28:29.714125500)], returnValue=Result(code=1, msg=success, data=null), costTime=32, operateEmpName=null)
+2026-05-19 14:28:29.798 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:30:21.947 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:32:17.218 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:32:28.340 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-新增部门:Dept(id=null, name=, createTime=null, updateTime=null)
+2026-05-19 14:32:28.372 [http-nio-8080-exec-7] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T14:32:28.372320500, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=add, methodParams=[Dept(id=null, name=, createTime=2026-05-19T14:32:28.340398400, updateTime=2026-05-19T14:32:28.340398400)], returnValue=Result(code=1, msg=success, data=null), costTime=32, operateEmpName=null)
+2026-05-19 14:32:28.398 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:34:17.352 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-新增部门:Dept(id=null, name=a, createTime=null, updateTime=null)
+2026-05-19 14:34:17.362 [http-nio-8080-exec-9] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T14:34:17.362967400, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=add, methodParams=[Dept(id=null, name=a, createTime=2026-05-19T14:34:17.352742800, updateTime=2026-05-19T14:34:17.352742800)], returnValue=Result(code=1, msg=success, data=null), costTime=10, operateEmpName=null)
+2026-05-19 14:34:17.388 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:39:39.280 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:39:55.854 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:40:18.481 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:41:31.769 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:42:17.457 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:45:16.946 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:49:00.548 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:51:56.409 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:52:43.640 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:56:28.671 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:58:02.561 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:59:04.407 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 14:59:27.881 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:09:27.635 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:10:01.858 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:10:41.516 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:13:15.340 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:14:12.577 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:14:32.547 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:15:41.063 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:16:00.807 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:16:58.233 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:17:00.455 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:17:03.901 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:3
+2026-05-19 15:17:18.080 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:17:21.623 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:18:37.246 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:18:43.299 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:18:47.145 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:18:52.966 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:18:53.869 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:18:57.552 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:19:49.513 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:20:15.280 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:20:30.315 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:22:09.751 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:23:58.906 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:24:47.701 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:24:54.495 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:24:58.364 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:25:00.182 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:25:05.967 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:25:42.039 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:27:22.073 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:29:07.498 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:29:25.694 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:29:57.501 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:29:59.647 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:30:01.162 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-新增部门:Dept(id=7, name=财务部1, createTime=2026-03-25T09:06:14, updateTime=2026-03-25T09:06:24)
+2026-05-19 15:30:01.173 [http-nio-8080-exec-9] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T15:30:01.173283200, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=add, methodParams=[Dept(id=7, name=财务部1, createTime=2026-05-19T15:30:01.162430, updateTime=2026-05-19T15:30:01.162430)], returnValue=Result(code=1, msg=success, data=null), costTime=11, operateEmpName=null)
+2026-05-19 15:30:01.200 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:31:55.496 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:31:57.723 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:31:59.605 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-新增部门:Dept(id=7, name=财务部1, createTime=2026-03-25T09:06:14, updateTime=2026-03-25T09:06:24)
+2026-05-19 15:31:59.640 [http-nio-8080-exec-1] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T15:31:59.640479800, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=add, methodParams=[Dept(id=7, name=财务部1, createTime=2026-05-19T15:31:59.605792500, updateTime=2026-05-19T15:31:59.605792500)], returnValue=Result(code=1, msg=success, data=null), costTime=35, operateEmpName=null)
+2026-05-19 15:31:59.664 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:33:10.110 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-新增部门:Dept(id=null, name=111, createTime=null, updateTime=null)
+2026-05-19 15:33:10.377 [http-nio-8080-exec-5] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T15:33:10.377418600, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=add, methodParams=[Dept(id=null, name=111, createTime=2026-05-19T15:33:10.110688200, updateTime=2026-05-19T15:33:10.110688200)], returnValue=Result(code=1, msg=success, data=null), costTime=267, operateEmpName=null)
+2026-05-19 15:33:10.857 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:33:12.995 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:29
+2026-05-19 15:33:16.461 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-新增部门:Dept(id=29, name=222, createTime=2026-05-19T15:33:10, updateTime=2026-05-19T15:33:10)
+2026-05-19 15:33:16.494 [http-nio-8080-exec-8] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T15:33:16.494048700, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=add, methodParams=[Dept(id=29, name=222, createTime=2026-05-19T15:33:16.461863800, updateTime=2026-05-19T15:33:16.461863800)], returnValue=Result(code=1, msg=success, data=null), costTime=33, operateEmpName=null)
+2026-05-19 15:33:16.519 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:33:47.227 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:30
+2026-05-19 15:34:04.102 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:35:05.813 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:35:08.034 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-新增部门:Dept(id=7, name=财务部1, createTime=2026-03-25T09:06:14, updateTime=2026-03-25T09:06:24)
+2026-05-19 15:35:08.058 [http-nio-8080-exec-1] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T15:35:08.058614, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=add, methodParams=[Dept(id=7, name=财务部1, createTime=2026-05-19T15:35:08.034044700, updateTime=2026-05-19T15:35:08.034044700)], returnValue=Result(code=1, msg=success, data=null), costTime=24, operateEmpName=null)
+2026-05-19 15:35:08.082 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:35:19.958 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:31
+2026-05-19 15:35:21.429 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-新增部门:Dept(id=31, name=财务部12, createTime=2026-05-19T15:35:08, updateTime=2026-05-19T15:35:08)
+2026-05-19 15:35:21.461 [http-nio-8080-exec-4] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T15:35:21.458167200, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=add, methodParams=[Dept(id=31, name=财务部12, createTime=2026-05-19T15:35:21.429446500, updateTime=2026-05-19T15:35:21.429446500)], returnValue=Result(code=1, msg=success, data=null), costTime=29, operateEmpName=null)
+2026-05-19 15:35:21.479 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:36:27.311 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:36:29.192 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:36:31.060 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-修改部门:Dept(id=7, name=财务部2, createTime=2026-03-25T09:06:14, updateTime=2026-03-25T09:06:24)
+2026-05-19 15:36:31.076 [http-nio-8080-exec-10] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T15:36:31.076076100, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=update, methodParams=[Dept(id=7, name=财务部2, createTime=2026-03-25T09:06:14, updateTime=2026-05-19T15:36:31.060677200)], returnValue=Result(code=1, msg=success, data=null), costTime=16, operateEmpName=null)
+2026-05-19 15:36:31.097 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 15:36:33.073 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 15:36:36.481 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-修改部门:Dept(id=7, name=财务部, createTime=2026-03-25T09:06:14, updateTime=2026-05-19T15:36:31)
+2026-05-19 15:36:36.491 [http-nio-8080-exec-1] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T15:36:36.491887300, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=update, methodParams=[Dept(id=7, name=财务部, createTime=2026-03-25T09:06:14, updateTime=2026-05-19T15:36:36.481728200)], returnValue=Result(code=1, msg=success, data=null), costTime=10, operateEmpName=null)
+2026-05-19 15:36:36.508 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 18:39:03.745 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h1m56s30ms223µs900ns).
+2026-05-19 19:10:12.143 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m38s342ms790µs600ns).
+2026-05-19 19:10:52.927 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:04:38.352 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:7
+2026-05-19 20:11:51.438 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:12:38.179 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:15:12.029 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询部门ID:6
+2026-05-19 20:15:53.304 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:16:09.525 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:16:24.355 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:16:47.522 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:16:54.945 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:17:28.934 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:20:01.133 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:21:20.668 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:23:14.776 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:23:41.531 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:25:58.358 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:27:24.925 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:28:04.070 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:28:44.720 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:28:49.186 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-新增部门:Dept(id=null, name=111, createTime=null, updateTime=null)
+2026-05-19 20:28:49.193 [http-nio-8080-exec-2] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T20:28:49.193602800, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=add, methodParams=[Dept(id=null, name=111, createTime=2026-05-19T20:28:49.186181900, updateTime=2026-05-19T20:28:49.186181900)], returnValue=Result(code=1, msg=success, data=null), costTime=7, operateEmpName=null)
+2026-05-19 20:28:49.207 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:28:51.060 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-根据部门ID删除部门:33
+2026-05-19 20:28:51.069 [http-nio-8080-exec-4] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T20:28:51.069469900, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=delete, methodParams=[33], returnValue=Result(code=1, msg=success, data=null), costTime=9, operateEmpName=null)
+2026-05-19 20:28:51.082 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:29:01.296 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-新增部门:Dept(id=null, name=222, createTime=null, updateTime=null)
+2026-05-19 20:29:01.301 [http-nio-8080-exec-8] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T20:29:01.301763800, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=add, methodParams=[Dept(id=null, name=222, createTime=2026-05-19T20:29:01.296457600, updateTime=2026-05-19T20:29:01.296457600)], returnValue=Result(code=1, msg=success, data=null), costTime=5, operateEmpName=null)
+2026-05-19 20:29:01.312 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:29:05.193 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-根据部门ID删除部门:34
+2026-05-19 20:29:05.198 [http-nio-8080-exec-10] INFO  com.zly.tliaswebmanagement.aop.RecordOperateLog-记录操作日志:OperateLog(id=null, operateEmpId=null, operateTime=2026-05-19T20:29:05.198588500, className=com.zly.tliaswebmanagement.controller.DeptController, methodName=delete, methodParams=[34], returnValue=Result(code=1, msg=success, data=null), costTime=5, operateEmpName=null)
+2026-05-19 20:29:05.209 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:48:29.300 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:50:16.953 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:50:17.748 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:50:18.841 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-05-19 20:50:34.877 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-19 20:50:34.883 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-05-19 20:50:34.888 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-05-19 20:50:34.891 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-05-19 20:50:44.123 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 138268 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-05-19 20:50:44.125 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-05-19 20:50:45.338 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-05-19 20:50:45.348 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-19 20:50:45.349 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-05-19 20:50:45.349 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-05-19 20:50:45.392 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-05-19 20:50:45.392 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1232 ms
+2026-05-19 20:50:45.913 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-05-19 20:50:45.926 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-05-19 20:50:45.931 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.069 seconds (process running for 2.882)
+2026-05-19 20:50:46.416 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-19 20:50:46.416 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-05-19 20:50:46.417 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-05-19 20:50:46.435 [http-nio-8080-exec-1] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-05-19 22:28:53.266 [http-nio-8080-exec-2] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-05-19 22:28:54.196 [http-nio-8080-exec-3] INFO  c.z.t.interceptor.TokenInterceptor-令牌解析失败，响应401状态码
+2026-05-19 22:28:57.517 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-19 22:28:57.522 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zly.tliaswebmanagement.mapper.EmpMapper">
+    <!-- 定义结果映射（可选，用于复杂字段映射） -->
+    <!--
+    1. id 是干嘛的？
+    <resultMap> 里的 id = 这个映射规则的名字你给它取名叫 EmpResultMap，就是告诉 MyBatis：
+    “这个字段映射关系，我命名为 EmpResultMap 啦！”
+    2. 在哪用这个名字？
+    在你的 <select> 查询标签里，用 resultMap 属性调用它
+    -->
+    <resultMap id="EmpResultMap" type="com.zly.tliaswebmanagement.pojo.Emp">
+        <id column="id" property="id"/>
+        <!-- <result column="数据库字段名" property="Java实体属性名" /> -->
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="name" property="name"/>
+        <result column="gender" property="gender"/>
+        <result column="phone" property="phone"/>
+        <result column="job" property="job"/>
+        <result column="salary" property="salary"/>
+        <result column="image" property="image"/>
+        <result column="entry_date" property="entryDate"/> <!-- 字段名与属性名映射 -->
+        <result column="dept_id" property="deptId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="dept_name" property="deptName"/> <!-- 关联部门名称 -->
+
+        <!--封装exprList-->
+        <!-- 封装员工的工作经历列表 -->
+        <!-- property = 对应 Emp 类里面的 List 名称 -->
+        <!-- ofType = List 里面的泛型类型（EmpExpr） -->
+        <collection property="exprList" ofType="com.zly.tliaswebmanagement.pojo.EmpExpr">
+            <id column="ee_id" property="id"/>
+            <result column="ee_company" property="company"/>
+            <result column="ee_job" property="job"/>
+            <result column="ee_begin" property="begin"/>
+            <result column="ee_end" property="end"/>
+            <result column="ee_empid" property="empId"/>
+        </collection>
+    </resultMap>
+
+    <!-- 动态查询：支持分页 + 多条件筛选 -->
+    <select id="list_use_pageHelper_dynamic" resultMap="EmpResultMap">
+        <!--resultype:查询返回的单挑记录所封装的类型-->
+        <!--
+        在 <select> 标签里：
+        写了 resultMap → 就绝对不能写 resultType
+        写了 resultType → 就绝对不能写 resultMap
+        你现在这样写 完全正确、标准、没问题：
+        xml
+        <select id="list_use_pageHelper_dynamic" resultMap="EmpResultMap">
+        2. 为什么？
+        resultType：你告诉 MyBatis ——“自动映射，我只要返回这个类型”
+        resultMap：你告诉 MyBatis ——“用我手动定义的映射规则”
+        这两个是互斥的，只能用一个。
+        -->
+        SELECT
+        e.id, e.username, e.password, e.name, e.gender, e.phone,
+        e.job, e.salary, e.image, e.entry_date, e.dept_id,
+        e.create_time, e.update_time, d.name AS dept_name
+        FROM tlias.emp e
+        LEFT JOIN tlias.dept d ON e.dept_id = d.id
+        <!--
+        必须写 AS dept_name，绝对不能删！
+        你的 resultMap 要求：数据库返回的列名必须是 dept_name，才能赋值给 deptName 属性
+        你联表查询的 d.name 原生列名是 name，和 emp 表的 name 列重名 两个 name 列会冲突，MyBatis 只会取第一个 name（员工姓名）
+        必须用 AS dept_name 给它起唯一别名，才能和 resultMap 对应上
+        删掉别名 → deptName 字段会变成 null，前端部门名显示为空
+        -->
+        <where>
+            <!-- 姓名模糊查询 -->
+            <if test="p.name != null and p.name != ''">
+                AND e.name LIKE CONCAT('%', #{p.name}, '%')
+            </if>
+
+            <!-- 性别筛选：gender !=3 才拼接条件 = 3就查全部 -->
+            <if test="p.gender != null and p.gender != 3">
+                AND e.gender = #{p.gender}
+            </if>
+
+            <!-- 入职日期范围 -->
+            <if test="p.begin != null and p.end != null">
+                AND e.entry_date BETWEEN #{p.begin} AND #{p.end}
+            </if>
+        </where>
+        ORDER BY e.update_time DESC
+    </select>
+
+
+    <!--
+    如果不想写最上面的<resultMap></resultMap> 可以用起别名的方式来映射
+    <select id="list_use_pageHelper_dynamic" resultType="com.zly.tliaswebmanagement.pojo.Emp">
+    SELECT
+        e.id,
+        e.username,
+        e.password,
+        e.name,
+        e.gender,
+        e.phone,
+        e.job,
+        e.salary,
+        e.image,
+        e.entry_date AS entryDate,
+        e.dept_id AS deptId,
+        e.create_time AS createTime,
+        e.update_time AS updateTime,
+        d.name AS deptName
+    FROM tlias.emp e
+    LEFT JOIN tlias.dept d ON e.dept_id = d.id
+    <where>
+        <if test="p.name != null and p.name != ''">
+            AND e.name LIKE CONCAT('%', #{p.name}, '%')
+        </if>
+        <if test="p.gender != null and p.gender != 3">
+            AND e.gender = #{p.gender}
+        </if>
+        <if test="p.begin != null and p.end != null">
+            AND e.entry_date BETWEEN #{p.begin} AND #{p.end}
+        </if>
+    </where>
+    ORDER BY e.update_time DESC
+    </select>
+    -->
+
+
+    <!-- 新增员工：insert 不需要 resultMap！
+    MyBatis 的 <insert> 标签本身就不支持 resultMap / resultType 属性！
+    这两个属性只给查询语句（<select>）用，新增 / 修改 / 删除都不能用。
+    resultMap / resultType：作用是把数据库查询出来的结果集，映射成 Java 对象。→ 只有查询（select） 才有结果集。
+    insert：作用是往数据库插入数据，执行后只会返回：
+
+    useGeneratedKeys="true"：开启「获取数据库自动生成主键」功能
+    keyProperty="id"：指定把生成的主键赋值给 Java 对象的 id 属性
+    -->
+    <insert id="insert" useGeneratedKeys="true" keyProperty="p.id">
+        insert into emp(username,password,name,gender,phone,job,salary,image,entry_date,dept_id,create_time,update_time)
+        values(
+                  #{p.username},
+                  #{p.password},
+                  #{p.name},
+                  #{p.gender},
+                  #{p.phone},
+                  #{p.job},
+                  #{p.salary},
+                  #{p.image},
+                  #{p.entryDate},
+                  #{p.deptId},
+                  #{p.createTime},
+                  #{p.updateTime}
+              )
+    </insert>
+
+
+    <!--根据id删除员工基本信息-->
+    <delete id="delete">
+        DELETE FROM tlias.emp
+        WHERE id IN
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+
+
+
+
+    <!--修改员工查询回显-->
+    <select id="getById" resultMap="EmpResultMap">
+        select e.*,
+               ee.id as ee_id,
+               ee.company as ee_company,
+               ee.job as ee_job,
+               ee.begin as ee_begin,
+               ee.end as ee_end,
+               ee.emp_id as ee_empid
+        from tlias.emp as e left join  tlias.emp_expr as ee
+        on e.id = ee.emp_id
+        where e.id = #{id}
+    </select>
+
+
+    <!--根据id修改员工基本信息-->
+    <update id="updateById">
+        update tlias.emp
+        <!-- 动态set标签：自动处理逗号，自动去掉最后多余的逗号 -->
+        <set>
+            <if test="e.username != null and e.username != ''">
+                username = #{e.username},
+            </if>
+            <if test="e.password != null and e.password != ''">
+                password = #{e.password},
+            </if>
+            <if test="e.name != null and e.name != ''">
+                name = #{e.name},
+            </if>
+            <if test="e.gender != null">
+                gender = #{e.gender},
+            </if>
+            <if test="e.job != null">
+                job = #{e.job},
+            </if>
+            <if test="e.salary != null">
+                salary = #{e.salary},
+            </if>
+            <if test="e.image != null and e.image != ''">
+                image = #{e.image},
+            </if>
+            <if test="e.entryDate != null">
+                entry_date = #{e.entryDate},
+            </if>
+            <if test="e.deptId != null">
+                dept_id = #{e.deptId},
+            </if>
+            <if test="e.updateTime != null">
+                update_time = #{e.updateTime},
+            </if>
+        </set>
+        where id = #{e.id}
+    </update>
+
+    <!--统计员工职位人数-->
+    <select id = "countEmpJobData" resultType="java.util.Map">
+        select
+            (case when emp.job = 1 then '班主任'
+                  when emp.job = 2 then '讲师'
+                  when emp.job = 3 then '学工主管'
+                  when emp.job = 4 then '教研主管'
+                  when emp.job = 5 then '咨询师'
+                  else '其它' end) as pos,
+            count(*) as num
+        from tlias.emp
+        group by emp.job
+        order by num
+    </select>
+
+    <!--不使用map 使用自定义的类JobCount-->
+    <select id="countEmpJobData_no_fucking_map" resultType="com.zly.tliaswebmanagement.pojo.JobCount">
+        select
+            (case when emp.job = 1 then '班主任'
+                  when emp.job = 2 then '讲师'
+                  when emp.job = 3 then '学工主管'
+                  when emp.job = 4 then '教研主管'
+                  when emp.job = 5 then '咨询师'
+                  else '其它' end) as pos,
+            count(*) as num
+        from tlias.emp
+        group by emp.job
+        order by num
+    </select>
+
+    <select id="countEmpGenderData" resultType="java.util.Map">
+        select
+            (case when gender = 1 then '男性员工'
+                  when gender = 2 then '女性员工'
+                  else '不男不女' end) as name
+             ,count(*) as value
+        from tlias.emp
+        group by gender;
+    </select>
+
+    <select id="countEmpGenderData_no_fucking_map" resultType="com.zly.tliaswebmanagement.pojo.GenderCount">
+        select
+            (case when gender = 1 then '男性员工'
+                  when gender = 2 then '女性员工'
+                  else '不男不女' end) as name
+             ,count(*) as value
+        from tlias.emp
+        group by gender;
+    </select>
+
+    <select id="selectByUsernameAndPassword" resultMap="EmpResultMap">
+        select id,username,name
+        from tlias.emp
+        where username = #{emp.username}
+        and password = #{emp.password}
+    </select>
+
+</mapper>

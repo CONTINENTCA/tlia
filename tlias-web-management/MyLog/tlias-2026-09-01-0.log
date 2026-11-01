@@ -1,0 +1,1107 @@
+2026-09-01 16:08:46.926 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 21656 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-01 16:08:46.927 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-01 16:08:48.518 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-01 16:08:48.529 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-01 16:08:48.530 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-01 16:08:48.531 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-01 16:08:48.580 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-01 16:08:48.581 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1621 ms
+2026-09-01 16:08:49.314 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-01 16:08:49.334 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-01 16:08:49.339 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.73 seconds (process running for 3.749)
+2026-09-01 16:08:54.656 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-01 16:08:54.656 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-01 16:08:54.659 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2026-09-01 16:08:54.691 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:08:54.772 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-01 16:08:55.082 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b46838f
+2026-09-01 16:08:55.082 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-01 16:08:56.429 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:08:57.658 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:12:34.886 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:12:34.886 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:13:12.818 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:13:12.818 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:13:50.584 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:13:50.585 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:14:01.359 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:14:01.360 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:14:22.353 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:14:22.354 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:15:05.377 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:15:05.378 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:16:04.479 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:21:02.500 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:21:11.833 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:21:15.069 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:21:15.492 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:21:16.614 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:22:44.575 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:22:44.575 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:25:43.072 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:25:43.073 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:40:18.098 [http-nio-8080-exec-10] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A968F70659EF937312C1E60
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A968F70659EF937312C1E60</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+2026-09-01 16:40:18.101 [http-nio-8080-exec-10] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+com.aliyun.oss.OSSException: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A968F70659EF937312C1E60
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A968F70659EF937312C1E60</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:103)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:92)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:289)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:159)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:87)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:137)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:214)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:156)
+	at com.aliyun.oss.internal.OSSObjectOperation.writeObjectInternal(OSSObjectOperation.java:1190)
+	at com.aliyun.oss.internal.OSSObjectOperation.putObject(OSSObjectOperation.java:107)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:627)
+	at com.zly.tliaswebmanagement.utils.AliyunOSSOperator.upload(AliyunOSSOperator.java:79)
+	at com.zly.tliaswebmanagement.controller.UploadController.upload(UploadController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-09-01 16:40:21.878 [http-nio-8080-exec-7] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A968F744EB00034318AE012
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A968F744EB00034318AE012</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+2026-09-01 16:40:21.879 [http-nio-8080-exec-7] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+com.aliyun.oss.OSSException: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A968F744EB00034318AE012
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A968F744EB00034318AE012</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:103)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:92)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:289)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:159)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:87)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:137)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:214)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:156)
+	at com.aliyun.oss.internal.OSSObjectOperation.writeObjectInternal(OSSObjectOperation.java:1190)
+	at com.aliyun.oss.internal.OSSObjectOperation.putObject(OSSObjectOperation.java:107)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:627)
+	at com.zly.tliaswebmanagement.utils.AliyunOSSOperator.upload(AliyunOSSOperator.java:79)
+	at com.zly.tliaswebmanagement.controller.UploadController.upload(UploadController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-09-01 16:41:13.555 [http-nio-8080-exec-9] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A968FA7CADC2D3735AB8C98
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A968FA7CADC2D3735AB8C98</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+2026-09-01 16:41:13.555 [http-nio-8080-exec-9] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+com.aliyun.oss.OSSException: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A968FA7CADC2D3735AB8C98
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A968FA7CADC2D3735AB8C98</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:103)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:92)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:289)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:159)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:87)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:137)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:214)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:156)
+	at com.aliyun.oss.internal.OSSObjectOperation.writeObjectInternal(OSSObjectOperation.java:1190)
+	at com.aliyun.oss.internal.OSSObjectOperation.putObject(OSSObjectOperation.java:107)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:627)
+	at com.zly.tliaswebmanagement.utils.AliyunOSSOperator.upload(AliyunOSSOperator.java:79)
+	at com.zly.tliaswebmanagement.controller.UploadController.upload(UploadController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-09-01 16:41:56.114 [http-nio-8080-exec-8] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A968FD283E6FC3231D42FF1
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A968FD283E6FC3231D42FF1</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+2026-09-01 16:41:56.115 [http-nio-8080-exec-8] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+com.aliyun.oss.OSSException: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A968FD283E6FC3231D42FF1
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A968FD283E6FC3231D42FF1</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:103)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:92)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:289)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:159)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:87)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:137)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:214)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:156)
+	at com.aliyun.oss.internal.OSSObjectOperation.writeObjectInternal(OSSObjectOperation.java:1190)
+	at com.aliyun.oss.internal.OSSObjectOperation.putObject(OSSObjectOperation.java:107)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:627)
+	at com.zly.tliaswebmanagement.utils.AliyunOSSOperator.upload(AliyunOSSOperator.java:79)
+	at com.zly.tliaswebmanagement.controller.UploadController.upload(UploadController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-09-01 16:42:24.350 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:42:24.350 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:42:26.838 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:42:40.515 [http-nio-8080-exec-3] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A968FFE659EF93230A74D64
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A968FFE659EF93230A74D64</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+2026-09-01 16:42:40.515 [http-nio-8080-exec-3] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+com.aliyun.oss.OSSException: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A968FFE659EF93230A74D64
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A968FFE659EF93230A74D64</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:103)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:92)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:289)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:159)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:87)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:137)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:214)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:156)
+	at com.aliyun.oss.internal.OSSObjectOperation.writeObjectInternal(OSSObjectOperation.java:1190)
+	at com.aliyun.oss.internal.OSSObjectOperation.putObject(OSSObjectOperation.java:107)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:627)
+	at com.zly.tliaswebmanagement.utils.AliyunOSSOperator.upload(AliyunOSSOperator.java:79)
+	at com.zly.tliaswebmanagement.controller.UploadController.upload(UploadController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-09-01 16:43:13.412 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:43:13.413 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:43:17.944 [http-nio-8080-exec-10] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A969024A902D23137422632
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A969024A902D23137422632</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+2026-09-01 16:43:17.945 [http-nio-8080-exec-10] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+com.aliyun.oss.OSSException: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A969024A902D23137422632
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A969024A902D23137422632</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:103)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:92)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:289)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:159)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:87)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:137)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:214)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:156)
+	at com.aliyun.oss.internal.OSSObjectOperation.writeObjectInternal(OSSObjectOperation.java:1190)
+	at com.aliyun.oss.internal.OSSObjectOperation.putObject(OSSObjectOperation.java:107)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:627)
+	at com.zly.tliaswebmanagement.utils.AliyunOSSOperator.upload(AliyunOSSOperator.java:79)
+	at com.zly.tliaswebmanagement.controller.UploadController.upload(UploadController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-09-01 16:44:30.812 [http-nio-8080-exec-7] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A96906B19E4A23130B01981
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A96906B19E4A23130B01981</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+2026-09-01 16:44:30.812 [http-nio-8080-exec-7] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+com.aliyun.oss.OSSException: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A96906B19E4A23130B01981
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A96906B19E4A23130B01981</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:103)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:92)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:289)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:159)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:87)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:137)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:214)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:156)
+	at com.aliyun.oss.internal.OSSObjectOperation.writeObjectInternal(OSSObjectOperation.java:1190)
+	at com.aliyun.oss.internal.OSSObjectOperation.putObject(OSSObjectOperation.java:107)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:627)
+	at com.zly.tliaswebmanagement.utils.AliyunOSSOperator.upload(AliyunOSSOperator.java:79)
+	at com.zly.tliaswebmanagement.controller.UploadController.upload(UploadController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-09-01 16:48:21.433 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:48:21.433 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:48:30.314 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:48:35.617 [http-nio-8080-exec-1] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A969160EA4B5E3239218B5A
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A969160EA4B5E3239218B5A</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+2026-09-01 16:48:35.618 [http-nio-8080-exec-1] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+com.aliyun.oss.OSSException: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A969160EA4B5E3239218B5A
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A969160EA4B5E3239218B5A</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:103)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:92)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:289)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:159)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:87)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:137)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:214)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:156)
+	at com.aliyun.oss.internal.OSSObjectOperation.writeObjectInternal(OSSObjectOperation.java:1190)
+	at com.aliyun.oss.internal.OSSObjectOperation.putObject(OSSObjectOperation.java:107)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:627)
+	at com.zly.tliaswebmanagement.utils.AliyunOSSOperator.upload(AliyunOSSOperator.java:79)
+	at com.zly.tliaswebmanagement.controller.UploadController.upload(UploadController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-09-01 16:50:19.111 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:50:19.111 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:54:20.942 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:54:20.942 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:54:32.647 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 16:54:32.648 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:54:57.982 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=2, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:55:00.455 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:55:48.304 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 16:55:54.000 [http-nio-8080-exec-1] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A969318C8F7FF323713E0A8
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A969318C8F7FF323713E0A8</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+2026-09-01 16:55:54.000 [http-nio-8080-exec-1] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+com.aliyun.oss.OSSException: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A969318C8F7FF323713E0A8
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A969318C8F7FF323713E0A8</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:103)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:92)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:289)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:159)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:87)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:137)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:214)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:156)
+	at com.aliyun.oss.internal.OSSObjectOperation.writeObjectInternal(OSSObjectOperation.java:1190)
+	at com.aliyun.oss.internal.OSSObjectOperation.putObject(OSSObjectOperation.java:107)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:627)
+	at com.zly.tliaswebmanagement.utils.AliyunOSSOperator.upload(AliyunOSSOperator.java:79)
+	at com.zly.tliaswebmanagement.controller.UploadController.upload(UploadController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-09-01 16:55:57.630 [http-nio-8080-exec-3] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A96931B558E603937F77214
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A96931B558E603937F77214</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+2026-09-01 16:55:57.630 [http-nio-8080-exec-3] ERROR c.z.t.exception.GlobalExceptionHandler-系统异常：
+com.aliyun.oss.OSSException: The OSS Access Key Id you provided is disabled.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A96931B558E603937F77214
+[HostId]: java-ai-continentca.oss-cn-beijing.aliyuncs.com
+[EC]: 0002-00000903
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided is disabled.</Message>
+  <RequestId>6A96931B558E603937F77214</RequestId>
+  <HostId>java-ai-continentca.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tQwT917xLvHYPHLgsnQ</OSSAccessKeyId>
+  <EC>0002-00000903</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000903</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:103)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:92)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:289)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:159)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:87)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:137)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:214)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:156)
+	at com.aliyun.oss.internal.OSSObjectOperation.writeObjectInternal(OSSObjectOperation.java:1190)
+	at com.aliyun.oss.internal.OSSObjectOperation.putObject(OSSObjectOperation.java:107)
+	at com.aliyun.oss.OSSClient.putObject(OSSClient.java:627)
+	at com.zly.tliaswebmanagement.utils.AliyunOSSOperator.upload(AliyunOSSOperator.java:79)
+	at com.zly.tliaswebmanagement.controller.UploadController.upload(UploadController.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-09-01 17:11:25.466 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-01 17:11:25.471 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-01 17:11:25.474 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-01 17:11:25.477 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-01 17:11:30.198 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 41232 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-01 17:11:30.199 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-01 17:11:31.322 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-01 17:11:31.334 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-01 17:11:31.337 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-01 17:11:31.337 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-01 17:11:31.388 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-01 17:11:31.388 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1142 ms
+2026-09-01 17:11:32.031 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-01 17:11:32.047 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-01 17:11:32.053 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 2.276 seconds (process running for 3.173)
+2026-09-01 17:11:50.631 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-01 17:11:50.633 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-01 17:11:50.634 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-09-01 17:11:50.700 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:11:50.732 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 17:11:50.741 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-01 17:11:51.296 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4adf0b78
+2026-09-01 17:11:51.299 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-01 17:22:35.163 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:22:35.164 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 17:34:05.203 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:34:05.204 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 17:39:45.558 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:39:45.559 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 17:41:10.156 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:41:10.156 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 17:44:37.026 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:44:37.027 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 17:45:06.184 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:45:06.186 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 17:56:19.906 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:56:19.906 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 17:56:44.707 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:56:44.707 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 17:57:13.686 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:57:13.688 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 17:57:22.553 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:57:22.553 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 17:57:58.227 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:57:58.228 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 17:58:55.873 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 17:58:55.873 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 18:00:22.692 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 18:00:22.692 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 18:04:13.028 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-01 18:04:13.033 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-01 18:04:13.035 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-01 18:04:13.037 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2026-09-01 18:09:18.362 [main] INFO  c.z.t.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 21.0.10 with PID 48012 (D:\Programing\JavaWeb\实战项目\tlias-web-management\target\classes started by 65338 in D:\Programing\JavaWeb\实战项目\tlias-web-management)
+2026-09-01 18:09:18.364 [main] INFO  c.z.t.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2026-09-01 18:09:19.326 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2026-09-01 18:09:19.332 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-01 18:09:19.333 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-09-01 18:09:19.333 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-09-01 18:09:19.365 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-09-01 18:09:19.366 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 966 ms
+2026-09-01 18:09:19.820 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2026-09-01 18:09:19.831 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2026-09-01 18:09:19.834 [main] INFO  c.z.t.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.736 seconds (process running for 2.308)
+2026-09-01 18:10:01.142 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-01 18:10:01.142 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-09-01 18:10:01.143 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2026-09-01 18:10:01.180 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 18:10:01.259 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2026-09-01 18:10:01.567 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fa32ef7
+2026-09-01 18:10:01.568 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2026-09-01 18:10:01.776 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 18:10:07.584 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=2, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 18:10:08.018 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=3, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 18:10:08.403 [http-nio-8080-exec-3] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 18:10:13.708 [http-nio-8080-exec-6] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=张, gender=null, begin=null, end=null)
+2026-09-01 18:10:14.874 [http-nio-8080-exec-7] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=张, gender=null, begin=null, end=null)
+2026-09-01 18:10:15.353 [http-nio-8080-exec-8] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=张, gender=null, begin=null, end=null)
+2026-09-01 18:10:15.545 [http-nio-8080-exec-9] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=张, gender=null, begin=null, end=null)
+2026-09-01 18:10:15.982 [http-nio-8080-exec-10] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 18:10:20.406 [http-nio-8080-exec-1] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=宋, gender=null, begin=null, end=null)
+2026-09-01 18:10:20.882 [http-nio-8080-exec-4] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 18:12:16.233 [http-nio-8080-exec-2] INFO  c.zly.tliaswebmanagement.controller.DeptController-查询全部部门数据
+2026-09-01 18:12:16.234 [http-nio-8080-exec-5] INFO  c.zly.tliaswebmanagement.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-01 18:12:22.506 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-01 18:12:22.511 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2026-09-01 18:12:22.514 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2026-09-01 18:12:22.516 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

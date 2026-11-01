@@ -1,0 +1,6 @@
+后端 [TokenInterceptor.java](D:/Programing/JavaWeb/实战项目/tlias-web-management/src/main/java/com/zly/tliaswebmanagement/interceptor/TokenInterceptor.java) 读取的是：
+request.getHeader("MyToken")
+
+如果要想使用这个nginx 把后端的interceptor的MyToken改成token
+访问
+ocalhost:90

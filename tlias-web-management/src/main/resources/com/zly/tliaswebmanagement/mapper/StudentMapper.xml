@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zly.tliaswebmanagement.mapper.StudentMapper">
+
+    <resultMap id="StudentResultMap" type="com.zly.tliaswebmanagement.pojo.Student">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="no" property="no"/>
+        <result column="gender" property="gender"/>
+        <result column="phone" property="phone"/>
+        <result column="degree" property="degree"/>
+        <result column="id_card" property="idCard"/>
+        <result column="is_college" property="isCollege"/>
+        <result column="address" property="address"/>
+        <result column="graduation_date" property="graduationDate"/>
+        <result column="violation_count" property="violationCount"/>
+        <result column="violation_score" property="violationScore"/>
+        <result column="clazz_id" property="clazzId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+
+        <result column="class_name" property="clazzName"/> <!--这个class_name是下面as起别名的-->
+    </resultMap>
+
+    <select id="page" resultMap="StudentResultMap">
+        select s.id,
+        s.name,
+        s.no,
+        s.gender,
+        s.phone,
+        s.degree,
+        s.violation_count,
+        s.violation_score,
+        s.update_time,
+        c.name as class_name
+        from tlias.student as s
+            inner join tlias.class as c on s.clazz_id = c.id
+        <where>
+            <if test="p.name != null and p.name != ''">
+                and s.name like concat('%',#{p.name},'%')
+            </if>
+            <if test="p.degree != null">
+                and s.degree &lt;= #{p.degree}
+            </if>
+            <if test="p.clazzId != null">
+                and s.clazz_id = #{p.clazzId}
+            </if>
+        </where>
+        order by s.clazz_id asc
+    </select>
+
+    <delete id="deleteByIds">
+        delete from tlias.student
+        where id in
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <insert id="insert">
+        insert into tlias.student(name, no, gender, phone, degree, id_card, is_college, address, graduation_date,clazz_id)
+        values(#{stu.name},
+               #{stu.no},
+               #{stu.gender},
+               #{stu.phone},
+               #{stu.degree},
+               #{stu.idCard},
+               #{stu.isCollege},
+               #{stu.address},
+               #{stu.graduationDate},
+               #{stu.clazzId})
+    </insert>
+
+    <select id="getById" resultMap="StudentResultMap">
+        select s.id,
+               s.name,
+               s.no,
+               s.gender,
+               s.phone,
+               s.degree,
+               s.id_card,
+               s.is_college,
+               s.address,
+               s.graduation_date,
+               s.violation_count,
+               s.violation_score,
+               s.clazz_id,
+               s.create_time,
+               s.update_time
+        from tlias.student as s
+                 inner join tlias.class as c on s.clazz_id = c.id
+        where s.id = #{id}
+    </select>
+
+    <update id="update">
+        UPDATE tlias.student
+        SET
+        name = #{stu.name},
+        no = #{stu.no},
+        gender = #{stu.gender},
+        phone = #{stu.phone},
+        degree = #{stu.degree},
+        id_card = #{stu.idCard},
+        is_college = #{stu.isCollege},
+        address = #{stu.address},
+        violation_count = #{stu.violationCount},
+        violation_score = #{stu.violationScore}
+        WHERE id = #{stu.id}
+    </update>
+
+    <select id="countStudentDegreeData" resultType="com.zly.tliaswebmanagement.pojo.DegreeCount">
+        select (case when s.degree = 1 then '初中'
+                     when s.degree = 2 then '高中'
+                     when s.degree = 3 then '大专'
+                     when s.degree = 4 then '本科'
+                     when s.degree = 5 then '硕士'
+                     when s.degree = 6 then '博士'
+                     else '其它' end) as name,
+               count(*) as value
+        from tlias.student as s
+        inner join tlias.class as c
+        on s.clazz_id = c.id
+        group by s.degree;
+    </select>
+
+    <select id="countStudentClassData">
+        select c.name as className,
+               count(*) as data
+        from tlias.student as s
+            inner join tlias.class as c
+                on s.clazz_id = c.id
+                    group by c.name
+    </select>
+</mapper>

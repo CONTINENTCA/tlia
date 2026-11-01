@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+action:
+作用：指定表单提交到哪里去
+表单点击提交后，数据会发送到 action 写的地址
+你写 /upload，就是把数据提交给后端的 /upload 接口处理
+如果不写 action，默认提交到当前页面地址
+总结一句话
+action = 表单数据要提交的后端接口地址
+
+enctype:
+作用：设置表单数据的提交格式
+只有上传文件时必须加！
+三种常见值：
+① application/x-www-form-urlencoded（默认）
+不传文件时用
+只能传普通文本
+② multipart/form-data（你现在用的）
+必须上传文件时一定要写！
+可以同时传：文本 + 文件（图片、视频等）
+不写这个，文件上传一定会失败
+③ text/plain
+几乎不用，纯文本格式
+总结一句话
+enctype="multipart/form-data" = 允许表单上传文件
+-->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      姓名:<input type="text" name="name"><br>
+      年龄:<input type="text" name="age"><br>
+      头像:<input type="file" name="file"><br>
+      <input type="submit" value="提交">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zly.tliaswebmanagement.mapper.EmpExprMapper">
+
+    <!--
+    <foreach>属性说明
+    1 collection：集合名称 collection 里面的名字 必须和 @Param 里的名字一模一样
+    2 item：集合遍历出来的元素/项
+    作用：给遍历出来的每一个对象起一个别名
+    就像 Java 的增强 for 循环：
+    for(EmpExpr expr : exprList) { }
+    后面取值就用：#{expr.empId}, #{expr.begin}
+
+    3 separator：每一次遍历使用的分隔符
+    作用：每条数据之间用 逗号 分隔
+    批量插入语法是：
+    sql
+    values (1,...), (2,...), (3,...)
+    MyBatis 会自动在每段中间加 ,
+    最后一条不会多加逗号，非常安全
+
+    4. （可选但常用）open="" 和 close=""
+    open="(" ：循环内容开头加 (
+    close=")" ：循环内容结尾加 )
+    批量插入一般不用，因为我们自己写 ()
+    -->
+    <insert id="insertBatch">
+        insert into tlias.emp_expr(emp_id,begin,end,company,job) values
+        <foreach collection="exprList" item="expr" separator=",">
+            (#{expr.empId},#{expr.begin},#{expr.end},#{expr.company},#{expr.job})
+        </foreach>
+    </insert>
+
+     <delete id="deleteBatch">
+         delete from tlias.emp_expr as er
+         where er.emp_id in
+         <foreach collection="ids" open="(" item="id" separator="," close=")">
+             #{id}
+         </foreach>
+     </delete>
+
+
+</mapper>
